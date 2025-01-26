@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Education.SequenceDecks", "Crews.Education.SequenceDecks\Crews.Education.SequenceDecks.csproj", "{BB40D828-1A46-4DAA-A933-8442E664AFAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Education.SequenceDecks.Tests", "Crews.Education.SequenceDecks.Tests\Crews.Education.SequenceDecks.Tests.csproj", "{410EE364-A0E8-4307-919F-B0FABAF2912B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB40D828-1A46-4DAA-A933-8442E664AFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB40D828-1A46-4DAA-A933-8442E664AFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB40D828-1A46-4DAA-A933-8442E664AFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB40D828-1A46-4DAA-A933-8442E664AFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
