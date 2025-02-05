@@ -1,7 +1,18 @@
 ﻿@page "/"
+@using Crews.Education.SequenceDecks.Models
+@inject HttpClient Http
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Sequence Decks</PageTitle>
 
-<h1>Hello, world!</h1>
+Hello, world!
 
-Welcome to your new app.
+@((MarkupString)string.Join("<br><br>========<br><br>", decks?.Select(deck => $"{deck.Color}<br><br>{string.Join("<br>", deck.Content)}") ?? ["Loading decks..."]))
+
+@code {
+	private IEnumerable<Deck>? decks;
+
+	protected override async Task OnInitializedAsync()
+	{
+		decks = await Http.GetFromJsonAsync<IEnumerable<Deck>>("decks.json");
+	}
+}

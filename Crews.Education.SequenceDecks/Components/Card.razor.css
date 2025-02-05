@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #fff;
+	border-radius: 32px;
+	width: 60vw;
+	height: 32vw;
+	font-size: 12vw;
+	font-family: "ABeeZee";
+	box-sizing: border-box;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+	color: #eee;
+}

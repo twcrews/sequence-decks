@@ -1,0 +1,11 @@
+﻿<div class="container" style="background-image: repeating-linear-gradient(@Color, black 300%);">
+	<text x="0" y="15">@Value</text>
+</div>
+
+@code {
+	[Parameter]
+	public required string Value { get; set; }
+
+	[Parameter]
+	public string Color { get; set; } = "#eee";
+}

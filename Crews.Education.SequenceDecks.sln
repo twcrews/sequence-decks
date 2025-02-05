@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Education.SequenceDec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crews.Education.SequenceDecks.Tests", "Crews.Education.SequenceDecks.Tests\Crews.Education.SequenceDecks.Tests.csproj", "{410EE364-A0E8-4307-919F-B0FABAF2912B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets", "Assets\Assets.csproj", "{047E3E26-6C2F-4113-A012-4AE0D7DB83E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410EE364-A0E8-4307-919F-B0FABAF2912B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047E3E26-6C2F-4113-A012-4AE0D7DB83E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047E3E26-6C2F-4113-A012-4AE0D7DB83E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047E3E26-6C2F-4113-A012-4AE0D7DB83E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047E3E26-6C2F-4113-A012-4AE0D7DB83E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

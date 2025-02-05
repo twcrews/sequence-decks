@@ -1,0 +1,9 @@
+.deck {
+	position: relative;
+	inset: 0;
+	margin: auto;
+	height: 32vw;
+	width: 60vw;
+	perspective: 100px;
+	perspective-origin: 50% -50%;
+}
