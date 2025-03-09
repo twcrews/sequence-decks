@@ -1,28 +1,2 @@
 ﻿@inject IStateService State
 
-<div class="area" style="background-color: @State.State.ThemeColor">
-	<ul class="circles">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
-</div>
-
-@code {
-	protected override void OnInitialized()
-	{
-		State.OnStateChange += StateHasChanged;
-	}
-
-	public void Dispose()
-	{
-		State.OnStateChange -= StateHasChanged;
-	}
-}
