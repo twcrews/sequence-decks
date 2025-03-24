@@ -1,6 +1,5 @@
 ﻿@page "/cards"
 @inject IDeckService DeckService
-@inject IStateService State
 
 @if (cards != null)
 {
@@ -21,11 +20,9 @@
 	{
 		IEnumerable<Deck>? decks = await DeckService.GetDecksAsync();
 		cards = decks?.First().GetCards().ToArray();
-		State.State = new() { ThemeColor = cards[0].Color };
 	}
 
 	private void HandleClick()
 	{
-		State.State = new() { ThemeColor = "#0a0" };
 	}
 }

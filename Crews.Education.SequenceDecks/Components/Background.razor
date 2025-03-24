@@ -1,2 +1,35 @@
-﻿@inject IStateService State
+﻿<div class="container @(_videoLoaded ? "loaded" : "")" style="background-color: black;">
+    <video @ref="_videoElement"
+           id="background-video"
+           class="video"
+           autoplay
+           loop
+           muted
+           playsinline
+           @onloadeddata="OnVideoLoaded">
+        <source src="@VideoSource" type="video/mp4" />
+    </video>
+</div>
 
+
+@code {
+    private ElementReference _videoElement;
+    private bool _videoLoaded = false;
+
+    [Parameter]
+    public required string VideoSource { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Additional initialization if needed
+        }
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    private void OnVideoLoaded()
+    {
+        _videoLoaded = true;
+    }
+}

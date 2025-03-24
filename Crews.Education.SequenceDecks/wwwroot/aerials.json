@@ -1,492 +1,2354 @@
-{
-	"China": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_CH_C007_C011_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Traveling through Wulingyuan National Park in China"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_CH_C002_C005_PSNK_v05_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Passing over the Longji rice terraces in Guangxi Province, China"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_CH_C007_C004_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Exploring Wulingyuan National Park in China"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_C004_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "The Mutianyu section of the Great Wall in Huairou District, China"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "The Mutianyu section of the Great Wall in Huairou District, China"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_C001_C005_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "The Mutianyu section of the Great Wall in Huairou District, China"
-		}
-	],
-	"Dubai": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_2K_AVC.mov ",
-			"Description": "Traveling along Sheikh Zayed Road in Dubai, United Arab Emirates"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_2K_AVC.mov ",
-			"Description": "Flying over Dubai Marina in the United Arab Emirates"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_DB_D011_C010_PSNK_DENOISE_v19_SDR_PS_20180914_SDR_2K_AVC.mov ",
-			"Description": "Passing over Downtown Dubai, United Arab Emirates"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_DB_D002_C003_PSNK_v04_SDR_PS_20180914_SDR_2K_AVC.mov ",
-			"Description": "Passing over Downtown Dubai, United Arab Emirates"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_DB_D001_C005_COMP_PSNK_v12_SDR_PS_20180912_SDR_2K_AVC.mov ",
-			"Description": "Flying along Dubai Marina in the United Arab Emirates"
-		}
-	],
-	"Greenland": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Traveling along the Nuussuaq Peninsula in Greenland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "The Ilulissat Icefjord off the coast of Greenland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GL_G010_C006_PSNK_NOSUN_v12_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "The Ilulissat Icefjord off the coast of Greenland"
-		}
-	],
-	"Hawaii": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_H007_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Flying over Laupāhoehoe Nui in the Kohala Forest Reserve on the island of Hawai'i"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_H004_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Above the Pu'u O 'Umi Natural Area Reserve, on the island of Hawai'i"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Following the Kohala coastline on the island of Hawai'i"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "The Waimanu Valley in the Kohala Forest Reserve on the island of Hawai'i"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_H004_C007_PS_v02_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Above the Pu'u O 'Umi Natural Area Reserve, on the island of Hawai'i"
-		}
-	],
-	"HongKong": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_2K_AVC.mov ",
-			"Description": "Over Victoria Harbour heading toward Central Hong Kong"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C010_PSNK_v08_SDR_PS_20181009_SDR_2K_AVC.mov ",
-			"Description": "Flying over Hong Kong toward Victoria Harbour"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C013_t9_6M_HB_tag0.mov ",
-			"Description": "Over Hong Kong Island"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C008_PSNK_v19_SDR_PS_20180914_SDR_2K_AVC.mov ",
-			"Description": "Over Victoria Harbour facing Hong Kong Island"
-		}
-	],
-	"Iss": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT312_162NC_139M_1041_AFRICA_NIGHT_v14_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Traveling northeast over the Sahara toward Russia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A103_C002_0205DG_v12_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Over the Horn of Africa traveling toward Central Asia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT110_112NC_364D_1054_AURORA_ANTARTICA__COMP_FINAL_v34_PS_SDR_20181107_SDR_2K_AVC.mov ",
-			"Description": "Aurora Australis over Antarctica"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A001_C001_120530_v04_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Over the North Atlantic Ocean heading toward France"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT060_117NC_363D_1034_AUSTRALIA_v35_SDR_PS_FINAL_20180731_SDR_2K_AVC.mov ",
-			"Description": "Over the Indian Ocean heading toward New Guinea"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A108_C001_v09_SDR_FINAL_22062018_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward Cuba"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A105_C002_v06_SDR_FINAL_25062018_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward the Bahamas"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT308_139K_142NC_CARIBBEAN_DAY_v09_SDR_FINAL_22062018_SDR_2K_AVC.mov ",
-			"Description": "Over the Great Plains heading toward Venezuela"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT329_113NC_396B_1105_CHINA_v04_SDR_FINAL_20180706_F900F2700_SDR_2K_AVC.mov ",
-			"Description": "Over Central Asia traveling toward Shanghai"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A083_C002_1130KZ_v04_SDR_PS_FINAL_20180725_SDR_2K_AVC.mov ",
-			"Description": "Over Iran traveling toward Central Asia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT329_117NC_401C_1037_IRELAND_TO_ASIA_v48_SDR_PS_FINAL_20180725_F0F6300_SDR_2K_AVC.mov ",
-			"Description": "Over the North Atlantic traveling toward Central Asia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT329_113NC_396B_1105_ITALY_v03_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Over Tunisia heading toward Russia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT306_139NC_139J_3066_CALI_TO_VEGAS_v08_SDR_PS_20180824_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward the Rocky Mountains"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT026_363A_103NC_E1027_KOREA_JAPAN_NIGHT_v18_SDR_PS_20180907_SDR_2K_AVC.mov ",
-			"Description": "Over Siberia traveling toward Japan"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward New York City"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A105_C003_0212CT_FLARE_v10_SDR_PS_FINAL_20180711_SDR_2K_AVC.mov ",
-			"Description": "Over the South Pacific Ocean heading toward New Zealand"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A050_C004_1027V8_v16_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Over Western Europe traveling toward the Red Sea"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_GMT314_139M_170NC_NORTH_AMERICA_AURORA__COMP_v22_SDR_20181206_v12CC_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward Canada"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A009_C001_010181A_v09_SDR_PS_FINAL_20180725_SDR_2K_AVC.mov ",
-			"Description": "Over Western Africa heading toward the Black Sea"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A351_C001_v06_SDR_PS_20180725_SDR_2K_AVC.mov ",
-			"Description": "Over the Ethiopian Highlands heading toward Mongolia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A114_C001_0305OT_v10_SDR_FINAL_22062018_SDR_2K_AVC.mov ",
-			"Description": "Over the Pacific Ocean heading toward Guatemala"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A001_C004_1207W5_v23_SDR_FINAL_20180706_SDR_2K_AVC.mov ",
-			"Description": "Over the coast of Africa heading toward the Alps"
-		}
-	],
-	"Liwa": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Flying over Liwa Oasis in the United Arab Emirates"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LW_L001_C003__PSNK_DENOISE_v04_SDR_PS_FINAL_20180803_SDR_2K_AVC.mov ",
-			"Description": "Flying over Liwa Oasis in the United Arab Emirates"
-		}
-	],
-	"London": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Heading toward Westminster, London"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_L004_C011_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Following the River Thames in London"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Traveling over Buckingham Palace and the River Thames in London"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_L010_C006_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Following the River Thames in London"
-		}
-	],
-	"LosAngeles": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A006_C008_PSNK_ALL_LOGOS_v10_SDR_PS_FINAL_20180801_SDR_2K_AVC.mov ",
-			"Description": "Flying over Los Angeles International Airport"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A009_C009_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Griffith Observatory and the Hollywood Hills in Los Angeles"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_2K_AVC.mov ",
-			"Description": "Over Santa Monica State Beach near Los Angeles"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A006_C004_v01_SDR_FINAL_PS_20180730_SDR_2K_AVC.mov ",
-			"Description": "The Hollywood Sign in Los Angeles"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A005_C009_PSNK_ALT_v09_SDR_PS_201809134_SDR_2K_AVC.mov ",
-			"Description": "Following Interstate 110 north through Los Angeles"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_PS_20181002_SDR_2K_AVC.mov ",
-			"Description": "Passing Downtown Los Angeles"
-		}
-	],
-	"NewYork": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_2K_AVC.mov ",
-			"Description": "Heading down 7th Avenue in New York City"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_N003_C006_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Passing over Manhattan"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_N008_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Approaching Lower Manhattan from New York Harbor"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Over Central Park and Midtown Manhattan"
-		}
-	],
-	"SanFrancisco": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_2K_AVC.mov ",
-			"Description": "Over San Francisco Bay heading toward downtown"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A012_C014_1223PT_v53_SDR_PS_FINAL_20180709_F0F8700_SDR_2K_AVC.mov ",
-			"Description": "San Francisco Bay and Market Street"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A007_C017_01156B_v02_SDR_PS_20180925_SDR_2K_AVC.mov ",
-			"Description": "Fisherman's Wharf and downtown San Francisco"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A006_C003_1219EE_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "San Francisco Bay and the Golden Gate Bridge"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A008_C007_011550_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Over the Marin Headlands looking toward the Golden Gate Bridge"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov ",
-			"Description": "Over San Francisco Bay traveling alongside the Golden Gate Bridge"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/comp_1223LV_FLARE_v21_SDR_PS_FINAL_20180709_F0F5700_SDR_2K_AVC.mov ",
-			"Description": "Over the San Francisco Bay moving toward the Embarcadero"
-		}
-	],
-	"Undersea": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/AK_A004_C012_SDR_20191217_SDR_2K_AVC.mov ",
-			"Description": "Moon Jellyfish near the coast of Alaska"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/g201_AK_A003_C014_SDR_20191113_SDR_2K_AVC.mov ",
-			"Description": "Moon Jellyfish near the coast of Alaska"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/BO_A018_C029_SDR_20190812_SDR_2K_AVC.mov ",
-			"Description": "A school of Chevron Barracuda in the waters near Borneo"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/BO_A014_C008_SDR_20190719_SDR_2K_AVC.mov ",
-			"Description": "Bumphead Parrotfish over the coral reefs off Borneo"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/DL_B002_C011_SDR_20191122_SDR_2K_AVC.mov ",
-			"Description": "Short-beaked Common Dolphins off the California coast"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/g201_CA_A016_C002_SDR_20191114_SDR_2K_AVC.mov ",
-			"Description": "Moving through a kelp forest off of the California coast"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/CR_A009_C007_SDR_20191113_SDR_2K_AVC.mov ",
-			"Description": "Spinner Dolphins in the waters off of Costa Rica"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/MEX_A006_C008_SDR_20190923_SDR_2K_AVC.mov ",
-			"Description": "Golden Cownose Rays off the coast of Mexico"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/FK_U009_C004_SDR_20191220_SDR_2K_AVC.mov ",
-			"Description": "Gray Reef Sharks swimming near French Polynesia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/g201_WH_D004_L014_SDR_20191031_SDR_2K_AVC.mov ",
-			"Description": "A Humpback Whale off of French Polynesia"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/BO_A014_C023_SDR_20190717_F240F3709_SDR_2K_AVC.mov ",
-			"Description": "A school of Bigeye Jacks off the coast of Borneo"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/KP_A010_C002_SDR_20190717_SDR_2K_AVC.mov ",
-			"Description": "Drifting through a kelp forest near Cape Peninsula, South Africa"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/PA_A004_C003_SDR_20190719_SDR_2K_AVC.mov ",
-			"Description": "Coral reef near Palau"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/PA_A001_C007_SDR_20190717_SDR_2K_AVC.mov ",
-			"Description": "Golden Jellyfish in the waters of Palau"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/PA_A002_C009_SDR_20190730_ALT01_SDR_2K_AVC.mov ",
-			"Description": "Golden Jellyfish in the waters of Palau"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/PA_A010_C007_SDR_20190717_SDR_2K_AVC.mov ",
-			"Description": "Golden Jellyfish in the waters of Palau"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/RS_A008_C010_SDR_20191218_SDR_2K_AVC.mov ",
-			"Description": "Coral reef in the Red Sea near Egypt"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/BO_A012_C031_SDR_20190726_SDR_2K_AVC.mov ",
-			"Description": "Horned Sea Stars on the ocean floor near Borneo"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/SE_A016_C009_SDR_20190717_SDR_2K_AVC.mov ",
-			"Description": "Cape Fur Seals off the coast of Cape Peninsula, South Africa"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/g201_TH_804_A001_8_SDR_20191031_SDR_2K_AVC.mov ",
-			"Description": "Waves breaking on the shores of Tahiti"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/g201_TH_803_A001_8_SDR_20191031_SDR_2K_AVC.mov ",
-			"Description": "Waves breaking on the shores of Tahiti"
-		}
-	],
-	"GrandCanyon": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/G007_C004_UHD_SDR_2K_AVC.mov ",
-			"Description": "Following the Colorado River through the Grand Canyon"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/G008_C015_UHD_SDR_2K_AVC.mov ",
-			"Description": "Flying over the Burnt Canyon area of the Grand Canyon"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/G009_C003_UHD_SDR_2K_AVC.mov ",
-			"Description": "Traveling over the Grand Canyon"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/G009_C014_UHD_SDR_2K_AVC.mov ",
-			"Description": "Traveling through the Grand Canyon"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/G010_C026_UHD_SDR_v02_2K_AVC.mov ",
-			"Description": "Traveling along the Colorado River in the Grand Canyon"
-		}
-	],
-	"Patagonia": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/P001_C005_UHD_SDR_2K_AVC.mov ",
-			"Description": "Moving along Cuernos del Paine in Torres del Paine National Park, Chile"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/P005_C002_UHD_SDR_2K_AVC.mov ",
-			"Description": "Traveling along Lago Nordenskjöld in Torres del Paine National Park, Chile"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/P006_C002_UHD_SDR_2K_AVC.mov ",
-			"Description": "Over Lago Nordenskjöld in Torres del Paine National Park, Chile"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/P007_C027_UHD_SDR_2K_AVC.mov ",
-			"Description": "Traveling over Torres del Paine National Park in Chile"
-		}
-	],
-	"Yosemite": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y002_C013_SDR_2K_AVC.mov ",
-			"Description": "Over Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y003_C009_SDR_2K_AVC.mov ",
-			"Description": "Over Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y004_C015_SDR_2K_AVC.mov ",
-			"Description": "Half Dome in Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y005_C003_SDR_2K_AVC.mov ",
-			"Description": "Over Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y009_C015_SDR_2K_AVC.mov ",
-			"Description": "Passing over Tuolumne Meadows in Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y011_C001_SDR_2K_AVC.mov ",
-			"Description": "Traveling toward Bridalveil Fall and El Capitan in Yosemite National Park"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/Y011_C008_SDR_2K_AVC.mov ",
-			"Description": "Traveling toward Matthes Crest in Yosemite National Park"
-		}
-	],
-	"Scotland": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/S003_C020_SDR_2K_AVC.mov ",
-			"Description": "Traveling over the west coast of Scotland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/S005_C015_SDR_2K_AVC.mov ",
-			"Description": "Over Loch Moidart on the west coast of Scotland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/S006_C007_SDR_2K_AVC.mov ",
-			"Description": "Traveling over the west coast of Scotland"
-		}
-	],
-	"Iceland": [
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I003_C004_SDR_2K_AVC.mov ",
-			"Description": "Flying over Langisjór in Iceland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I003_C008_SDR_2K_AVC.mov ",
-			"Description": "Traveling over Tungnaá in the Icelandic highlands"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I003_C011_SDR_2K_AVC.mov ",
-			"Description": "Following the Jökulgilskvísl river in Landmannalaugar, Iceland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I003_C015_SDR_2K_AVC.mov ",
-			"Description": "Traveling through Jökulgil in Landmannalaugar, Iceland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I004_C014_SDR_2K_AVC.mov ",
-			"Description": "Traveling over Landmannalaugar in Iceland"
-		},
-		{
-			"Uri": "https://sylvan.apple.com/Videos/I005_C008_CROP_SDR_2K_AVC.mov ",
-			"Description": "Moving toward Mýrdalsjökull glacier in Iceland"
-		}
-	]
-}
+[
+  {
+    "Name": "Africa Night",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT312_162NC_139M_1041_AFRICA_NIGHT_v14_SDR_FINAL_20180706_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 230,
+            "Text": "Traveling over Ukraine toward Russia"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Moving over the Mediterranean Sea toward Italy"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Over southern Italy approaching the Balkan Peninsula with Turkey in the distance"
+          },
+          {
+            "Seconds": 100,
+            "Text": "The Mediterranean coast of Tunisia and Libya"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over the Balkan Peninsula approaching the Black Sea"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling northeast over the Sahara at night"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Traveling over the Black Sea toward Ukraine"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Over the Grand Erg Oriental heading toward the Mediterranean Sea"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over the Balkan Peninsula moving toward the Black Sea"
+          }
+        ],
+        "ID": "9c6b969b62012359e5a4ead2ba3889e8"
+      }
+    ]
+  },
+  {
+    "Name": "Africa and the Middle East",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A103_C002_0205DG_v12_SDR_FINAL_20180706_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 115,
+            "Text": "The Gulf of Oman approaching the Makran Coast"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over Afghanistan and Pakistan moving toward the Karakoram Range"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Over Iran moving toward Afghanistan and Pakistan"
+          },
+          {
+            "Seconds": 235,
+            "Text": "Over the Karakoram Range traveling into China"
+          },
+          {
+            "Seconds": 280,
+            "Text": "The Takla Makan Desert in western China"
+          },
+          {
+            "Seconds": 315,
+            "Text": "The Tian Shan mountains in Central Asia"
+          },
+          {
+            "Seconds": 45,
+            "Text": "The southeastern Arabian Peninsula"
+          },
+          {
+            "Seconds": 145,
+            "Text": "The Makran Coast of Iran and Pakistan"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Horn of Africa traveling toward the Gulf of Aden"
+          }
+        ],
+        "ID": "46ed793647394d735ff16081f77c5c56"
+      }
+    ]
+  },
+  {
+    "Name": "Alaskan Jellies",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/g201_AK_A003_C014_SDR_20191113_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Drifting over Moon Jellyfish near the coast of Alaska, United States"
+          }
+        ],
+        "ID": "6ca7ae63e963021b850332a57263f874"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/AK_A004_C012_SDR_20191217_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moon Jellyfish near the coast of Alaska, United States"
+          }
+        ],
+        "ID": "f450f302ce65238bb9e9d62560810fee"
+      }
+    ]
+  },
+  {
+    "Name": "Antarctica",
+    "Videos": [
+      {
+        "ID": "c1a1afd8e790d335facf340d6bdea756",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Aurora Australis over Antarctica"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT110_112NC_364D_1054_AURORA_ANTARTICA__COMP_FINAL_v34_PS_SDR_20181107_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Atlantic Ocean to Spain and France",
+    "Videos": [
+      {
+        "ID": "906ab6011a4a334389136b4b1941712f",
+        "Uri": "https://sylvan.apple.com/Videos/comp_A001_C001_120530_v04_SDR_FINAL_20180706_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Moving away from the Iberian Peninsula and passing over the Bay of Biscay and France"
+          },
+          {
+            "Seconds": 115,
+            "Text": "Over Portugal and Spain"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over Western Europe with the North Atlantic Ocean in the distance"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the North Atlantic Ocean heading toward Portugal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Australia",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 220,
+            "Text": "Over Northern Territory, Australia moving toward New Guinea"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Over Western Australia approaching Northern Territory"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Indian Ocean heading toward Perth, Australia"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Traveling northeast across Western Australia"
+          },
+          {
+            "Seconds": 335,
+            "Text": "Over the Arafura Sea traveling toward New Guinea"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT060_117NC_363D_1034_AUSTRALIA_v35_SDR_PS_FINAL_20180731_SDR_2K_AVC.mov",
+        "ID": "9dba81a7d16d5f081ae79412dcb2b835"
+      }
+    ]
+  },
+  {
+    "Name": "Barracuda",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/BO_A018_C029_SDR_20190812_SDR_2K_AVC.mov",
+        "ID": "cb4d1f59c9e89c28784bc2aed1da8ca8",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A school of Chevron Barracuda\nin the waters near Borneo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Bumpheads",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Bumphead Parrotfish over the\ncoral reefs off Borneo"
+          }
+        ],
+        "ID": "a1240be2b2b1c0d9b20b0d7206a7c8ba",
+        "Uri": "https://sylvan.apple.com/Videos/BO_A014_C008_SDR_20190719_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "California Dolphins",
+    "Videos": [
+      {
+        "ID": "32af731493633ce8d0c4c7a6f2ebdfe3",
+        "Uri": "https://sylvan.apple.com/Videos/DL_B002_C011_SDR_20191122_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Short-beaked Common Dolphins off the California coast, United States"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "California Kelp Forest",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/g201_CA_A016_C002_SDR_20191114_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moving through a kelp forest off of the California coast, United States"
+          }
+        ],
+        "ID": "246c2d26af9429b46eb0f9c58e03b79b"
+      }
+    ]
+  },
+  {
+    "Name": "California to Vegas",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 170,
+            "Text": "Over the Rocky Mountains in the United States"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over Las Vegas heading toward Salt Lake City in the United States"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Passing between Salt Lake City and Denver in the United States"
+          },
+          {
+            "Seconds": 85,
+            "Text": "Passing over Los Angeles on the west coast of the United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward the California coast"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Over the western United States approaching Salt Lake City"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Over the California coast traveling inland"
+          },
+          {
+            "Seconds": 95,
+            "Text": "Over Los Angeles approaching Las Vegas in the United States"
+          }
+        ],
+        "ID": "de88c100f31fae537a053e1a9a5535be",
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT306_139NC_139J_3066_CALI_TO_VEGAS_v08_SDR_PS_20180824_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Caribbean",
+    "Videos": [
+      {
+        "ID": "26eac3ad7d7aaa461e1ccf9ac01c9010",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward Central America"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Crossing Central America toward the Caribbean Sea"
+          },
+          {
+            "Seconds": 70,
+            "Text": "The southwest coast of Central America heading toward the Caribbean Sea"
+          },
+          {
+            "Seconds": 300,
+            "Text": "Over Florida and the Bahamas traveling toward the Sargasso Sea"
+          },
+          {
+            "Seconds": 350,
+            "Text": "Over the Sargasso Sea heading out into the Atlantic Ocean"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Over Cuba with Florida and the Bahamas beyond"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over the Caribbean Sea moving toward Cuba"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_A105_C002_v06_SDR_FINAL_25062018_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "e1d976ec34b65a1955eb9bbe1b51085c",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over the Pacific Ocean toward Central America"
+          },
+          {
+            "Seconds": 125,
+            "Text": "Crossing over Cuba looking toward Haiti and the Dominican Republic"
+          },
+          {
+            "Seconds": 190,
+            "Text": "Turks and Caicos Islands in the Atlantic Ocean"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Traveling over the Bahamas looking toward Haiti and the Dominican Republic"
+          },
+          {
+            "Seconds": 65,
+            "Text": "The Mosquito Coast of Nicaragua"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Passing over Central America with South America in the distance"
+          },
+          {
+            "Seconds": 35,
+            "Text": "The Pacific coasts of Nicaragua, Costa Rica, and Panama"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Passing by a cloud-covered Jamaica in the Caribbean Sea"
+          },
+          {
+            "Seconds": 85,
+            "Text": "Over the Caribbean Sea traveling toward Cuba"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_A108_C001_v09_SDR_FINAL_22062018_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Caribbean Day",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 285,
+            "Text": "Over the Bahamas approaching the Dominican Republic and Haiti"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Over the southeast United States heading toward Florida"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Heading southeast over the Great Plains of the United States"
+          },
+          {
+            "Seconds": 300,
+            "Text": "Over the Dominican Republic and Haiti approaching the Caribbean Sea"
+          },
+          {
+            "Seconds": 315,
+            "Text": "Over the Caribbean Sea heading south toward Venezuela"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Moving southeast over the Bahamas"
+          },
+          {
+            "Seconds": 90,
+            "Text": "Heading southeast over the Midwest United States"
+          },
+          {
+            "Seconds": 220,
+            "Text": "Over Florida traveling toward the Bahamas"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT308_139K_142NC_CARIBBEAN_DAY_v09_SDR_FINAL_22062018_SDR_2K_AVC.mov",
+        "ID": "ae3a3cc650f2f4b6657862d0819fae6a"
+      }
+    ]
+  },
+  {
+    "Name": "China",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing over the Longji rice terraces in Guangxi Province, China"
+          }
+        ],
+        "ID": "d44796af80235543b256d098d42a0135",
+        "Uri": "https://sylvan.apple.com/Videos/comp_CH_C002_C005_PSNK_v05_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Exploring Wulingyuan National Park in China"
+          }
+        ],
+        "ID": "a1dd1a05201feca981a98eab6f4d2386",
+        "Uri": "https://sylvan.apple.com/Videos/comp_CH_C007_C004_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+        "ID": "5af970ae839b1fdbe9a3700c29c87c50",
+        "Uri": "https://sylvan.apple.com/Videos/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 10,
+            "Text": "Over central China traveling toward Shanghai"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over Shanghai moving toward the East China Sea"
+          },
+          {
+            "Seconds": 30,
+            "Text": "Heading over eastern China approaching Shanghai"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over central Asia traveling toward coastal China"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Approaching Shanghai heading toward the East China Sea"
+          }
+        ],
+        "ID": "78d333dfcbc29de4d72c4ea7ba89b744",
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT329_113NC_396B_1105_CHINA_v04_SDR_FINAL_20180706_F900F2700_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through Wulingyuan National Park in China"
+          }
+        ],
+        "ID": "ceaa79f391bdd6326c3957bb1a89b4a3",
+        "Uri": "https://sylvan.apple.com/Videos/comp_CH_C007_C011_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+        "ID": "7069849c5e6ab0283a2457ef52ff802c",
+        "Uri": "https://sylvan.apple.com/Videos/comp_C001_C005_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+        "ID": "2778060c796023aa43990d53c9ec72c0",
+        "Uri": "https://sylvan.apple.com/Videos/comp_C004_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Costa Rica Dolphins",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/CR_A009_C007_SDR_20191113_SDR_2K_AVC.mov",
+        "ID": "f74fc421dd6a978fef2ac7ac2ccd5872",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Spinner Dolphins in the waters off\nof Costa Rica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Cownose Rays",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Cownose Rays off the\ncoast of Mexico"
+          }
+        ],
+        "ID": "e5a9d80b696f0353fa8eee1cf7b2fd45",
+        "Uri": "https://sylvan.apple.com/Videos/MEX_A006_C008_SDR_20190923_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Dubai",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 330,
+            "Text": "Over Downtown Dubai approaching the coast"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Burj Khalifa in Downtown Dubai, United Arab Emirates"
+          },
+          {
+            "Seconds": 280,
+            "Text": "Passing by Burj Khalifa in Downtown Dubai, United Arab Emirates"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_DB_D011_C010_PSNK_DENOISE_v19_SDR_PS_20180914_SDR_2K_AVC.mov",
+        "ID": "b07cfe1d892930fcb8577321c29e5860"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along Sheikh Zayed Road in Dubai, United Arab Emirates"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_2K_AVC.mov",
+        "ID": "5de6b08bcc6a888a5c7375d99962d3bf"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Heading over Downtown Dubai in the United Arab Emirates"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Downtown Dubai in the United Arab Emirates"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_DB_D002_C003_PSNK_v04_SDR_PS_20180914_SDR_2K_AVC.mov",
+        "ID": "066681bf63cee45e141fd47723e88011"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Dubai Marina in the United Arab Emirates"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_2K_AVC.mov",
+        "ID": "b3cfc5a34d91a1416b9b45b140749333"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying along Dubai Marina in the United Arab Emirates"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_DB_D001_C005_COMP_PSNK_v12_SDR_PS_20180912_SDR_2K_AVC.mov",
+        "ID": "4e67172d4c459bf59a58d58c19537c9d"
+      }
+    ]
+  },
+  {
+    "Name": "Grand Canyon",
+    "Videos": [
+      {
+        "ID": "7d9d611993d44c1c5b252521cd89fc0b",
+        "Uri": "https://sylvan.apple.com/Videos/G007_C004_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Colorado River through the Grand Canyon in the United States"
+          }
+        ]
+      },
+      {
+        "ID": "c3cd54c2944ac6c0f23b86baf038b5da",
+        "Uri": "https://sylvan.apple.com/Videos/G008_C015_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over the Burnt Canyon area of the Grand Canyon, United States"
+          }
+        ]
+      },
+      {
+        "ID": "a91d70d4303bbfdacdda37c75b2f8c78",
+        "Uri": "https://sylvan.apple.com/Videos/G009_C003_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over the Grand Canyon\nin the United States"
+          }
+        ]
+      },
+      {
+        "ID": "cab93127a4bf781fb231c5065b0fe645",
+        "Uri": "https://sylvan.apple.com/Videos/G009_C014_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through the Grand Canyon\nin the United States"
+          }
+        ]
+      },
+      {
+        "ID": "c63e0473affbccb0251dafd234997dc1",
+        "Uri": "https://sylvan.apple.com/Videos/G010_C026_UHD_SDR_v02_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the Colorado River\nin the Grand Canyon, United States"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Gray Reef Sharks",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Gray Reef Sharks swimming near French Polynesia"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/FK_U009_C004_SDR_20191220_SDR_2K_AVC.mov",
+        "ID": "d3d20ac39a777a3c5f7fece6742d69ab"
+      }
+    ]
+  },
+  {
+    "Name": "Greenland",
+    "Videos": [
+      {
+        "ID": "4daac3c2bb6863a9d818be3377708553",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Ilulissat Icefjord off the coast of Greenland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "aa408ac5607714cb129c191d97242f00",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the Nuussuaq Peninsula in Greenland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "fca3a0b6b1f98af537fa64f6ec8d8c3c",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Ilulissat Icefjord off the coast of Greenland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GL_G010_C006_PSNK_NOSUN_v12_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Hawaii",
+    "Videos": [
+      {
+        "ID": "2b076b95a111c98022943bc330346137",
+        "Uri": "https://sylvan.apple.com/Videos/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Kohala coastline on the island of Hawai‘i"
+          }
+        ]
+      },
+      {
+        "ID": "a61c523041fcd7c88617eb86475148d3",
+        "Uri": "https://sylvan.apple.com/Videos/comp_H004_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Above the Pu‘u O ‘Umi Natural Area Reserve, on the island of Hawai‘i"
+          }
+        ]
+      },
+      {
+        "ID": "699e17aeabba6f013cf5f9d92cdf2e89",
+        "Uri": "https://sylvan.apple.com/Videos/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Waimanu Valley in the Kohala Forest Reserve on the island of Hawai‘i"
+          }
+        ]
+      },
+      {
+        "ID": "995a0471319c387c36c0faf58929084d",
+        "Uri": "https://sylvan.apple.com/Videos/comp_H004_C007_PS_v02_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Above the Pu‘u O ‘Umi Natural Area Reserve, on the island of Hawai‘i"
+          }
+        ]
+      },
+      {
+        "ID": "5a0745b9f8e451e21fabe93e4463cc76",
+        "Uri": "https://sylvan.apple.com/Videos/comp_H007_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Laupāhoehoe Nui in the Kohala Forest Reserve on the island of Hawai‘i"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Hong Kong",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Victoria Harbour heading toward Central Hong Kong"
+          }
+        ],
+        "ID": "5205c912b49f0b703b1ccacca561e65a"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C010_PSNK_v08_SDR_PS_20181009_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Victoria Peak in Hong Kong"
+          },
+          {
+            "Seconds": 330,
+            "Text": "Over Victoria Harbour approaching the Kowloon Peninsula"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Flying over Hong Kong toward Victoria Harbour"
+          }
+        ],
+        "ID": "099eac0edb3b0aa1e410c272e5de6d0c"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C013_t9_6M_HB_tag0.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Wan Chai approaching Central Hong Kong"
+          },
+          {
+            "Seconds": 270,
+            "Text": "Over Hong Kong Island"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over Central Hong Kong"
+          }
+        ],
+        "ID": "5bdb46d44ffb678412058cbcab567244"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_HK_H004_C008_PSNK_v19_SDR_PS_20180914_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Victoria Harbour facing Hong Kong Island"
+          }
+        ],
+        "ID": "5deef5ff191eaa30444251ac9e7c2a4d"
+      }
+    ]
+  },
+  {
+    "Name": "Humpback Whale",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/g201_WH_D004_L014_SDR_20191031_SDR_2K_AVC.mov",
+        "ID": "8a5f2d342ab0e8ae2ee7c8b59d9437bc",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A Humpback Whale off of French Polynesia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Iceland",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Tungnaá in the Icelandic highlands"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I003_C008_SDR_2K_AVC.mov",
+        "ID": "c67ada55cc11834517f266310715c470"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Jökulgilskvísl river in Landmannalaugar, Iceland"
+          },
+          {
+            "Seconds": 308,
+            "Text": "Traveling over the Icelandic highlands"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I003_C011_SDR_2K_AVC.mov",
+        "ID": "4197a11070225c25cb831e318284729d"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Landmannalaugar in Iceland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I004_C014_SDR_2K_AVC.mov",
+        "ID": "95924c0179696e8f788be7d9dda66211"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through Jökulgil in Landmannalaugar, Iceland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I003_C015_SDR_2K_AVC.mov",
+        "ID": "a6603172649aeae15b4a52c30bc5be95"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Langisjór in Iceland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I003_C004_SDR_2K_AVC.mov",
+        "ID": "ca706446b36cab039c5855f76d71dcb8"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 324,
+            "Text": "Traveling over Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Approaching Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 225,
+            "Text": "Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Moving toward Mýrdalsjökull glacier in Iceland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/I005_C008_CROP_SDR_2K_AVC.mov",
+        "ID": "7fd73a5a304c73a82493b463d15436bb"
+      }
+    ]
+  },
+  {
+    "Name": "Iran and Afghanistan",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A083_C002_1130KZ_v04_SDR_PS_FINAL_20180725_SDR_2K_AVC.mov",
+        "ID": "625b9e858e514656e250779c57733560",
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Moving from day to night over central Asia"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The reflection of the sun along the coast of Iran"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Moving from day to night over Iran"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ireland to Asia",
+    "Videos": [
+      {
+        "ID": "9b089755436446be0cd9381edde3b94b",
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT329_117NC_401C_1037_IRELAND_TO_ASIA_v48_SDR_PS_FINAL_20180725_F0F6300_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 185,
+            "Text": "Over western Russia passing Moscow"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over eastern Europe looking toward Moscow"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Ireland and Great Britain"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over eastern Europe with Moscow in the distance"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Over Great Britain traveling toward mainland Europe"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the North Atlantic approaching Ireland and Great Britain"
+          },
+          {
+            "Seconds": 65,
+            "Text": "Over northwestern Europe heading toward Russia"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Over central Europe heading toward Russia"
+          },
+          {
+            "Seconds": 195,
+            "Text": "Over Russia traveling toward central Asia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Italy to Asia",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT329_113NC_396B_1105_ITALY_v03_SDR_FINAL_20180706_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 5,
+            "Text": "Over the Mediterranean Sea looking toward Sicily and the Italian Peninsula"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Over southern Italy with the Balkan Peninsula beyond"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Over southwest Russia passing by Kazakhstan"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Tunisia heading toward Italy"
+          },
+          {
+            "Seconds": 55,
+            "Text": "Over Ukraine with Russia beyond"
+          },
+          {
+            "Seconds": 25,
+            "Text": "Over the Balkan Peninsula moving toward central Asia"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Over the Balkan Peninsula passing by the Black Sea"
+          }
+        ],
+        "ID": "8d6fc894c058b37e0c8f4bbe6243c4e7"
+      }
+    ]
+  },
+  {
+    "Name": "Jacks",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/BO_A014_C023_SDR_20190717_F240F3709_SDR_2K_AVC.mov",
+        "ID": "6168392b4c0f72466a316b67cc3cdcc1",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A school of Bigeye Jacks\noff the coast of Borneo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Kelp",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/KP_A010_C002_SDR_20190717_SDR_2K_AVC.mov",
+        "ID": "0b521b3604453d6ffff96e98bbc6a7c6",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Drifting through a kelp forest near Cape Peninsula, South Africa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Korea and Japan Night",
+    "Videos": [
+      {
+        "ID": "c07ad529f26a05ed966d2a8ac66a612e",
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT026_363A_103NC_E1027_KOREA_JAPAN_NIGHT_v18_SDR_PS_20180907_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "The Korean Peninsula with Japan in the distance"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Moving southeast over Siberia and Mongolia"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over South Korea traveling toward Japan"
+          },
+          {
+            "Seconds": 260,
+            "Text": "Over the Pacific Ocean southeast of Japan"
+          },
+          {
+            "Seconds": 195,
+            "Text": "Over Japan looking toward the Pacific Ocean"
+          },
+          {
+            "Seconds": 22,
+            "Text": "Heading toward Inner Mongolia"
+          },
+          {
+            "Seconds": 32,
+            "Text": "Over Mongolia traveling toward China"
+          },
+          {
+            "Seconds": 60,
+            "Text": "Over northern China moving toward the Korean Peninsula"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over China heading toward the Korean Peninsula"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Liwa",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_LW_L001_C003__PSNK_DENOISE_v04_SDR_PS_FINAL_20180803_SDR_2K_AVC.mov",
+        "ID": "7f06d99442705e26ebf3198f660a8203",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Liwa Oasis in the United Arab Emirates"
+          }
+        ]
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+        "ID": "c06f249dcbd064f1f16a9c702a328464",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Liwa Oasis in the United Arab Emirates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "London",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 299,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 24,
+            "Text": "Over Buckingham Palace in London"
+          },
+          {
+            "Seconds": 49,
+            "Text": "Over St James’s Park heading toward the River Thames, London"
+          },
+          {
+            "Seconds": 324,
+            "Text": "Crossing the River Thames at Tower Bridge in London"
+          },
+          {
+            "Seconds": 104,
+            "Text": "Crossing the River Thames and passing over the London Eye"
+          },
+          {
+            "Seconds": 149,
+            "Text": "Passing over South London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Passing over the grounds of Buckingham Palace, London"
+          },
+          {
+            "Seconds": 279,
+            "Text": "Passing by The Shard in South London"
+          }
+        ],
+        "ID": "6af63c26642d6a0ca0e1e0add6d5eb9c",
+        "Uri": "https://sylvan.apple.com/Videos/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Passing The Shard in South London"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 92,
+            "Text": "South of the River Thames heading toward the London Eye"
+          },
+          {
+            "Seconds": 200,
+            "Text": "Crossing the River Thames toward Westminster, London"
+          },
+          {
+            "Seconds": 270,
+            "Text": "Over Westminster, London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          }
+        ],
+        "ID": "b35b74a91fdd7160546561b2c615dd25",
+        "Uri": "https://sylvan.apple.com/Videos/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 78,
+            "Text": "Following the River Thames in London"
+          },
+          {
+            "Seconds": 258,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 178,
+            "Text": "South of the River Thames in London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          }
+        ],
+        "ID": "17823748bc1859b529c2077eed0bccbe",
+        "Uri": "https://sylvan.apple.com/Videos/comp_L010_C006_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Approaching the London Eye on the River Thames"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          },
+          {
+            "Seconds": 325,
+            "Text": "Passing the Houses of Parliament on the River Thames in London"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Following the River Thames toward the London Eye"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Following the River Thames in London"
+          },
+          {
+            "Seconds": 310,
+            "Text": "Following the River Thames past the London Eye"
+          }
+        ],
+        "ID": "515b4990fcb8676078d61d8a0461ecab",
+        "Uri": "https://sylvan.apple.com/Videos/comp_L004_C011_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Los Angeles",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 430,
+            "Text": "Over Santa Monica State Beach near Los Angeles"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Santa Monica State Beach near Los Angeles"
+          },
+          {
+            "Seconds": 365,
+            "Text": "Passing over Santa Monica Pier near Los Angeles"
+          }
+        ],
+        "ID": "ed5a75694bb8bd7289e70790c2043a09",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following Interstate 110 north through Los Angeles"
+          }
+        ],
+        "ID": "1b9d06eec809beafde77c5115755995d",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A005_C009_PSNK_ALT_v09_SDR_PS_201809134_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing Downtown Los Angeles"
+          }
+        ],
+        "ID": "3add09ad5cff4fd27764333ed07d08cd",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_PS_20181002_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 250,
+            "Text": "Over the Hollywood Hills approaching Burbank, California"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The Hollywood Sign in Los Angeles"
+          }
+        ],
+        "ID": "7ee9b621200927afc7b7e4069ac62adc",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A006_C004_v01_SDR_FINAL_PS_20180730_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Los Angeles International Airport"
+          }
+        ],
+        "ID": "39996246a14288408e511017af473c30",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A006_C008_PSNK_ALL_LOGOS_v10_SDR_PS_FINAL_20180801_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Griffith Observatory and the Hollywood Hills in Los Angeles"
+          }
+        ],
+        "ID": "3023ca1372f96f8dfe68b07fcc0459ad",
+        "Uri": "https://sylvan.apple.com/Videos/comp_LA_A009_C009_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "New York",
+    "Videos": [
+      {
+        "ID": "ad00e615c279f1a65d07e2b87224f276",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Heading down 7th Avenue toward Times Square, New York"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Over Times Square in New York"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Heading down 7th Avenue in Midtown Manhattan, New York"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "21b925d1b5ac15f815f5cb419c13671e",
+        "Captions": [
+          {
+            "Seconds": 246,
+            "Text": "Over Midtown Manhattan in New York"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Central Park traveling toward Midtown Manhattan in New York"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "c2e38a724d22971f4049f98c17aa2be6",
+        "Captions": [
+          {
+            "Seconds": 110,
+            "Text": "Alongside Lower Manhattan approaching One World Trade Center"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Lower Manhattan from New York Harbor"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Passing One World Trade Center toward Midtown Manhattan"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over Lower Manhattan in New York moving toward Midtown"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_N008_C003_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      },
+      {
+        "ID": "79a59436bfd0e2089f84c4d198e47a07",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Upper East Side and Central Park in New York"
+          },
+          {
+            "Seconds": 205,
+            "Text": "Passing the Empire State Building moving toward Lower Manhattan"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over Midtown Manhattan heading downtown toward the Empire State Building"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Approaching the Empire State Building in New York"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_N003_C006_PS_v01_SDR_PS_20180925_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "New York Night",
+    "Videos": [
+      {
+        "ID": "1619d03262f97f5af6930dcf9d9ca00f",
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean heading toward Mexico"
+          },
+          {
+            "Seconds": 190,
+            "Text": "Heading over New Orleans and the Gulf Coast of the United States"
+          },
+          {
+            "Seconds": 122,
+            "Text": "Flying over the Gulf of Mexico toward the United States"
+          },
+          {
+            "Seconds": 280,
+            "Text": "Over the eastern United States traveling toward New York"
+          },
+          {
+            "Seconds": 215,
+            "Text": "Moving over the southeastern United States"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Passing over Mexico City toward the Gulf of Mexico"
+          },
+          {
+            "Seconds": 320,
+            "Text": "Over the eastern United States approaching New York City"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Passing by Houston and approaching New Orleans in the United States"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "New Zealand",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 110,
+            "Text": "Approaching sunrise over New Zealand"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Crossing from night to day over New Zealand"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Crossing from night to day over the South Pacific Ocean"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Leaving New Zealand heading northeast over the Pacific Ocean"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_A105_C003_0212CT_FLARE_v10_SDR_PS_FINAL_20180711_SDR_2K_AVC.mov",
+        "ID": "c0888841576798f8f4c4323489b24fdc"
+      }
+    ]
+  },
+  {
+    "Name": "Nile Delta",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A050_C004_1027V8_v16_SDR_FINAL_20180706_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 20,
+            "Text": "Heading southeast over the Alps and the Po River Valley"
+          },
+          {
+            "Seconds": 185,
+            "Text": "The Mediterranean Sea and the Nile River Delta"
+          },
+          {
+            "Seconds": 220,
+            "Text": "The Eastern Desert flanked by the Nile River and the Gulf of Suez"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Heading southeast over the Red Sea"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Western Europe with Great Britain and Ireland in the distance"
+          },
+          {
+            "Seconds": 205,
+            "Text": "The Nile River flowing through the Sahara in Egypt"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Moving down the Italian Peninsula and the Adriatic Sea"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Traveling southeast over the Mediterranean Sea"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Greece flanked by the Ionian and Aegean Seas"
+          }
+        ],
+        "ID": "e75fa4ce6c085c168eedc4c77b3d7189"
+      }
+    ]
+  },
+  {
+    "Name": "North America Aurora",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 300,
+            "Text": "Heading toward the North Atlantic with the Aurora Borealis over Labrador, Canada"
+          },
+          {
+            "Seconds": 200,
+            "Text": "Over the Great Lakes approaching Ontario, Canada"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Approaching the Great Lakes with Ontario, Canada beyond"
+          },
+          {
+            "Seconds": 55,
+            "Text": "Over Mexico heading toward the southwest United States"
+          },
+          {
+            "Seconds": 210,
+            "Text": "The Aurora Borealis over western Ontario, Canada"
+          },
+          {
+            "Seconds": 235,
+            "Text": "The Aurora Borealis over northern Ontario, Canada"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Over the southwest United States"
+          },
+          {
+            "Seconds": 250,
+            "Text": "The Aurora Borealis over northern Quebec, Canada"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Over Baja California looking north toward the United States"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over the Rocky Mountains approaching Denver"
+          },
+          {
+            "Seconds": 125,
+            "Text": "Traveling over the Great Plains of the United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward Baja California"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_GMT314_139M_170NC_NORTH_AMERICA_AURORA__COMP_v22_SDR_20181206_v12CC_SDR_2K_AVC.mov",
+        "ID": "c57ce798c177b6bd20c327607a3692c1"
+      }
+    ]
+  },
+  {
+    "Name": "Palau Coral",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Coral reef near Palau"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/PA_A004_C003_SDR_20190719_SDR_2K_AVC.mov",
+        "ID": "d6d0760b74f8d8cb06e9f6c7e64fb2fa"
+      }
+    ]
+  },
+  {
+    "Name": "Palau Jellies",
+    "Videos": [
+      {
+        "ID": "f658b092b14b8615018663757ae308f4",
+        "Uri": "https://sylvan.apple.com/Videos/PA_A001_C007_SDR_20190717_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          },
+          {
+            "Seconds": 282,
+            "Text": "Golden Jellyfish with a Moon Jellyfish\nin their midst"
+          },
+          {
+            "Seconds": 348,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      },
+      {
+        "ID": "f7861a2313a2cc9d2bb8e90f92b7653b",
+        "Uri": "https://sylvan.apple.com/Videos/PA_A002_C009_SDR_20190730_ALT01_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      },
+      {
+        "ID": "e007a22bddd19b1332d1377ccf5b1aa8",
+        "Uri": "https://sylvan.apple.com/Videos/PA_A010_C007_SDR_20190717_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Patagonia",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/P001_C005_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moving along Cuernos del Paine in\nTorres del Paine National Park, Chile"
+          }
+        ],
+        "ID": "16ae41818bab4d85a15e35abbd55c132"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/P005_C002_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along Lago Nordenskjöld in\nTorres del Paine National Park, Chile"
+          }
+        ],
+        "ID": "f72447e1a7ce47ea475784e097a56ce9"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/P006_C002_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Lago Nordenskjöld in\nTorres del Paine National Park, Chile"
+          }
+        ],
+        "ID": "51ae57d8669aab7d53e71002428d1277"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/P007_C027_UHD_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Torres del Paine\nNational Park in Chile"
+          }
+        ],
+        "ID": "7bb200761948ec441051b7986fefe53c"
+      }
+    ]
+  },
+  {
+    "Name": "Red Sea Coral",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Coral reef in the Red Sea near Egypt"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/RS_A008_C010_SDR_20191218_SDR_2K_AVC.mov",
+        "ID": "251b407eaae637039921b81c1d7d50d7"
+      }
+    ]
+  },
+  {
+    "Name": "Sahara and Italy",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over western Africa moving toward the Sahara"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Passing over the Ahaggar Mountains in the Sahara, North Africa"
+          },
+          {
+            "Seconds": 230,
+            "Text": "Approaching Italy in the Mediterranean Sea"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Over the Grand Erg Oriental in North Africa moving toward the Mediterranean Sea"
+          },
+          {
+            "Seconds": 30,
+            "Text": "Crossing the Sahara in North Africa"
+          },
+          {
+            "Seconds": 245,
+            "Text": "Over Italy traveling toward the Balkan Peninsula"
+          },
+          {
+            "Seconds": 195,
+            "Text": "The coast of Tunisia and the Mediterranean Sea"
+          },
+          {
+            "Seconds": 285,
+            "Text": "Over the Balkan Peninsula heading toward the Carpathian Mountains"
+          },
+          {
+            "Seconds": 310,
+            "Text": "The Carpathian Mountains and the Black Sea"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over the coast of Tunisia traveling toward Italy"
+          }
+        ],
+        "ID": "3415faf2dc0146891aeec90142de7ff1",
+        "Uri": "https://sylvan.apple.com/Videos/comp_A009_C001_010181A_v09_SDR_PS_FINAL_20180725_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "San Francisco",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Alongside the Golden Gate Bridge heading toward the Marin Headlands"
+          },
+          {
+            "Seconds": 230,
+            "Text": "Passing by the North Tower of the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Crossing over the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 260,
+            "Text": "Over San Francisco Bay traveling alongside the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching the Golden Gate Bridge from San Francisco"
+          }
+        ],
+        "ID": "56bb8fe8a04d8070ea20a03346e69dae"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 80,
+            "Text": "Crossing over the Bay Bridge heading toward downtown San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching the Bay Bridge and downtown San Francisco"
+          },
+          {
+            "Seconds": 116,
+            "Text": "Over San Francisco Bay heading toward downtown"
+          }
+        ],
+        "ID": "1b8f26b7d957dd07706db7718ae69bdc"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A006_C003_1219EE_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 191,
+            "Text": "Over San Francisco Bay"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Heading over the north tower of the Golden Gate Bridge toward San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "San Francisco Bay and the Golden Gate Bridge"
+          }
+        ],
+        "ID": "a1d656c3cb1c792df9c7c9e3a29bf044"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_1223LV_FLARE_v21_SDR_PS_FINAL_20180709_F0F5700_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Following Market Street through downtown San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the San Francisco Bay moving toward the Embarcadero"
+          },
+          {
+            "Seconds": 360,
+            "Text": "Following Market Street through San Francisco"
+          },
+          {
+            "Seconds": 90,
+            "Text": "Over the Embarcadero looking down Market Street in San Francisco"
+          }
+        ],
+        "ID": "41874580edf050fa427749dc78edbcae"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A008_C007_011550_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Crossing the Golden Gate Bridge toward the Presidio of San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Marin Headlands looking toward the Golden Gate Bridge"
+          }
+        ],
+        "ID": "b0a6852cfb2328a0c4b2998eb5bdf737"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A012_C014_1223PT_v53_SDR_PS_FINAL_20180709_F0F8700_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over San Francisco Bay moving toward the Embarcadero"
+          },
+          {
+            "Seconds": 208,
+            "Text": "Following Market Street through San Francisco"
+          }
+        ],
+        "ID": "6c1c29d30963c8865b31a9d1b4882aad"
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A007_C017_01156B_v02_SDR_PS_20180925_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 80,
+            "Text": "Approaching Coit Tower with downtown San Francisco and the Bay Bridge\nin the background"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Passing Coit Tower toward downtown San Francisco and the Bay Bridge"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Fisherman’s Wharf heading toward downtown San Francisco"
+          },
+          {
+            "Seconds": 196,
+            "Text": "Downtown San Francisco"
+          }
+        ],
+        "ID": "0b63a630968fd9955bcab4a2328fcdb7"
+      }
+    ]
+  },
+  {
+    "Name": "Scotland",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 338,
+            "Text": "Neist Point Lighthouse, Isle of Skye, Scotland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the coast of the\nIsle of Skye, Scotland"
+          },
+          {
+            "Seconds": 372,
+            "Text": "Isle of Skye, Scotland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/S003_C020_SDR_2K_AVC.mov",
+        "ID": "0a61e4b6ef66ad68c87e3c0c964ca165"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Loch Moidart on the west coast of Scotland"
+          },
+          {
+            "Seconds": 139,
+            "Text": "Approaching Castle Tioram on the\nwest coast of Scotland"
+          },
+          {
+            "Seconds": 181,
+            "Text": "Castle Tioram on the west coast of Scotland"
+          },
+          {
+            "Seconds": 214,
+            "Text": "Traveling over the west coast of Scotland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/S006_C007_SDR_2K_AVC.mov",
+        "ID": "6bdc8f5127e3413afa0db9164486d56d"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 252,
+            "Text": "Approaching the Sea of Hebrides, Scotland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Loch Moidart on the\nwest coast of Scotland"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/S005_C015_SDR_2K_AVC.mov",
+        "ID": "f90ae9dbc5afce6221194e13fcb5381e"
+      }
+    ]
+  },
+  {
+    "Name": "Sea Stars",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/BO_A012_C031_SDR_20190726_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Horned Sea Stars on the\nocean floor near Borneo"
+          }
+        ],
+        "ID": "51d885c6900e3891fd23cca3122902ca"
+      }
+    ]
+  },
+  {
+    "Name": "Seals",
+    "Videos": [
+      {
+        "ID": "daac3344724aaf1fea7d3301686b06c1",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Cape Fur Seals off the coast of Cape Peninsula, South Africa"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/SE_A016_C009_SDR_20190717_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "South Africa to North Asia",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/comp_A351_C001_v06_SDR_PS_20180725_SDR_2K_AVC.mov",
+        "Captions": [
+          {
+            "Seconds": 190,
+            "Text": "Approaching the coast of Iran with the Zagros Mountains beyond"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Over the Arabian Peninsula moving toward Iran"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling northeast over the Ethiopian Highlands"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Over the Dasht-e Lut desert in Iran"
+          },
+          {
+            "Seconds": 265,
+            "Text": "Moving toward Turkmenistan and the Garagum desert"
+          },
+          {
+            "Seconds": 360,
+            "Text": "Heading into southeastern Kazakhstan from Kyrgyzstan"
+          },
+          {
+            "Seconds": 450,
+            "Text": "Over the Altai Mountains moving into Mongolia"
+          },
+          {
+            "Seconds": 322,
+            "Text": "The Pamir-Alay Mountains and the Fergana Valley in central Asia"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Traveling over the Red Sea into the Arabian Peninsula"
+          },
+          {
+            "Seconds": 305,
+            "Text": "The Amu Darya River and the Pamir-Alay Mountains in central Asia"
+          },
+          {
+            "Seconds": 400,
+            "Text": "Traveling north over Kazakhstan"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over the Zagros Mountains in Iran"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over the Arabian Peninsula approaching Iran"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Heading northeast over the Arabian Peninsula"
+          }
+        ],
+        "ID": "d370ea98943cf2da35e856f28e2b26ab"
+      }
+    ]
+  },
+  {
+    "Name": "Southern California to Baja",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 280,
+            "Text": "The Pacific Ocean off the coast of Mexico"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over southern California moving toward Mexico"
+          },
+          {
+            "Seconds": 65,
+            "Text": "Approaching the Mojave Desert in southern California with Mexico beyond"
+          },
+          {
+            "Seconds": 225,
+            "Text": "Looking south to the Pacific Ocean over the Sierra Madre del Sur in Mexico"
+          },
+          {
+            "Seconds": 95,
+            "Text": "The Gulf of California flanked by the Sonoran Desert and the Baja California Peninsula"
+          },
+          {
+            "Seconds": 290,
+            "Text": "The Pacific Ocean off the coast of Mexico and Guatemala"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Over the Sierra Madre Occidental mountains moving toward the west coast of Mexico"
+          },
+          {
+            "Seconds": 130,
+            "Text": "The Sierra Madre Occidental mountains on the west coast of Mexico"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean heading toward the United States"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Traveling south down the coast of California"
+          }
+        ],
+        "ID": "5bed79de0f2c64c88b6c0326f6128a5b",
+        "Uri": "https://sylvan.apple.com/Videos/comp_A114_C001_0305OT_v10_SDR_FINAL_22062018_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Tahiti Waves",
+    "Videos": [
+      {
+        "Uri": "https://sylvan.apple.com/Videos/g201_TH_803_A001_8_SDR_20191031_SDR_2K_AVC.mov",
+        "ID": "f69bf2cc82ac4de54db8f639106a0841",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Waves breaking on the shores of Tahiti"
+          }
+        ]
+      },
+      {
+        "Uri": "https://sylvan.apple.com/Videos/g201_TH_804_A001_8_SDR_20191031_SDR_2K_AVC.mov",
+        "ID": "252bfd3f6df7ca3ecc4a68812aa4a270",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Waves breaking on the shores of Tahiti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "West Africa to the Alps",
+    "Videos": [
+      {
+        "ID": "bba6ca8b848af9288ffc474641792b99",
+        "Captions": [
+          {
+            "Seconds": 145,
+            "Text": "Traveling northeast over Spain’s Costa Blanca"
+          },
+          {
+            "Seconds": 220,
+            "Text": "Moving northeast over the Alps"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Passing over the Atlas Mountains in Morocco"
+          },
+          {
+            "Seconds": 125,
+            "Text": "The Mediterranean Sea and southern Spain"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Moving northeast along the coast of Morocco"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Over Morocco approaching the Mediterranean Sea"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Over the western Mediterranean Sea with the Alps beyond"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Traveling northeast over Spain’s Balearic Islands"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The Canary Islands, Atlantic Ocean, and coast of Africa"
+          }
+        ],
+        "Uri": "https://sylvan.apple.com/Videos/comp_A001_C004_1207W5_v23_SDR_FINAL_20180706_SDR_2K_AVC.mov"
+      }
+    ]
+  },
+  {
+    "Name": "Yosemite",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 146,
+            "Text": "Half Dome and Nevada Fall in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 124,
+            "Text": "Passing by Half Dome and approaching Nevada Fall in Yosemite National Park"
+          }
+        ],
+        "ID": "39355abd72414798557322ba3f2340de",
+        "Uri": "https://sylvan.apple.com/Videos/Y004_C015_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 285,
+            "Text": "Nevada, Vernal, and Illilouette Falls in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Traveling toward Half Dome in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Over Yosemite National Park with\nNevada Fall in the distance"
+          },
+          {
+            "Seconds": 60,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park\nin the United States"
+          },
+          {
+            "Seconds": 255,
+            "Text": "Nevada and Illilouette Falls in\nYosemite National Park, United States"
+          }
+        ],
+        "ID": "4d88c87e5ffadd3a7e71f6fe624916f2",
+        "Uri": "https://sylvan.apple.com/Videos/Y005_C003_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Over Yosemite National Park\nin the United States"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Approaching Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park\nin the United States"
+          },
+          {
+            "Seconds": 87,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          }
+        ],
+        "ID": "dd95f05b0f31c1178b8db03e34ad4ee0",
+        "Uri": "https://sylvan.apple.com/Videos/Y002_C013_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 93,
+            "Text": "Traveling toward Merced Peak in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 244,
+            "Text": "Traveling over Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 221,
+            "Text": "Passing by Merced Peak in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Merced Peak in Yosemite National Park, United States"
+          }
+        ],
+        "ID": "a21ea85154e11871d6e495eaf514180b",
+        "Uri": "https://sylvan.apple.com/Videos/Y003_C009_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 87,
+            "Text": "Passing El Capitan, Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 470,
+            "Text": "Traveling past Half Dome in\nYosemite Valley, United States"
+          },
+          {
+            "Seconds": 44,
+            "Text": "Traveling east toward El Capitan in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 585,
+            "Text": "Traveling east over Yosemite Valley, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling toward Bridalveil Fall and\nEl Capitan in Yosemite National Park"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Traveling east toward Half Dome in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 390,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          }
+        ],
+        "ID": "faa0fa5e188767d145be0c0163fd3676",
+        "Uri": "https://sylvan.apple.com/Videos/Y011_C001_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing over Tuolumne Meadows in\nYosemite National Park, United States"
+          }
+        ],
+        "ID": "199f0028014796ce3cd8da2945e31e9a",
+        "Uri": "https://sylvan.apple.com/Videos/Y009_C015_SDR_2K_AVC.mov"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 396,
+            "Text": "Moving toward Tuolumne Meadows in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling toward Matthes Crest in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 215,
+            "Text": "Flying over Matthes Crest in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Flying over Matthes Crest in\nYosemite National Park, United States"
+          },
+          {
+            "Seconds": 124,
+            "Text": "Flying through Matthes Crest in\nYosemite National Park, United States"
+          }
+        ],
+        "ID": "fc0c20010ec9bec491df53c184eacdac",
+        "Uri": "https://sylvan.apple.com/Videos/Y011_C008_SDR_2K_AVC.mov"
+      }
+    ]
+  }
+]
