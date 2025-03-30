@@ -1,35 +1,178 @@
-﻿<div class="container @(_videoLoaded ? "loaded" : "")" style="background-color: black;">
-    <video @ref="_videoElement"
-           id="background-video"
-           class="video"
-           autoplay
-           loop
-           muted
-           playsinline
-           @onloadeddata="OnVideoLoaded">
-        <source src="@VideoSource" type="video/mp4" />
-    </video>
+﻿@using Crews.Education.SequenceDecks.Extensions
+@inject IAerialService AerialService
+@inject IJSRuntime JSRuntime
+@implements IAsyncDisposable
+
+<div class="background-container">
+    <video @ref="primaryVideo" class="background-video" muted="muted" src="@primarySource" />
+    <video @ref="secondaryVideo" class="background-video @(videoState == VideoState.SecondaryPlaying ? "" : "hidden")"
+        muted src="@secondarySource" />
+    <div class="caption-container">
+        <p>@caption</p>
+    </div>
 </div>
 
-
 @code {
-    private ElementReference _videoElement;
-    private bool _videoLoaded = false;
+    private List<Aerial> aerials = [];
+    private VideoState videoState = VideoState.Stopped;
 
-    [Parameter]
-    public required string VideoSource { get; set; }
+    private ElementReference primaryVideo;
+    private ElementReference secondaryVideo;
+    private IJSObjectReference? _jsModule;
+    private DotNetObjectReference<Background>? _objRef;
+
+    private string primarySource = "";
+    private string secondarySource = "";
+
+    private string caption = "";
+    private int? nextCaptionTime;
+    private bool videoChangeBlock = false;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            // Additional initialization if needed
+            // Create a reference to the current component instance
+            _objRef = DotNetObjectReference.Create(this);
+
+            // Load the JS module
+            _jsModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/videoInterop.js");
+
+            // Register the timeupdate event listener
+            if (_jsModule != null)
+            {
+                await _jsModule.InvokeVoidAsync("registerTimeUpdate", primaryVideo, _objRef);
+                await _jsModule.InvokeVoidAsync("registerTimeUpdate", secondaryVideo, _objRef);
+            }
+
+            nextCaptionTime = 0;
         }
-        await base.OnAfterRenderAsync(firstRender);
     }
 
-    private void OnVideoLoaded()
+    [JSInvokable]
+    public async Task OnTimeUpdateAsync(double currentTimeInSeconds, double durationInSeconds)
     {
-        _videoLoaded = true;
+        if (nextCaptionTime != null && currentTimeInSeconds > nextCaptionTime)
+        {
+            caption = GetCaption(currentTimeInSeconds) ?? "No info";
+            nextCaptionTime = aerials[aerialIndex].Captions
+            .OrderBy(caption => caption.Seconds)
+            .FirstOrDefault(caption => caption.Seconds > currentTimeInSeconds)?
+            .Seconds;
+
+            await InvokeAsync(() => StateHasChanged());
+        }
+
+        if (durationInSeconds - currentTimeInSeconds < 5 && !videoChangeBlock)
+        {
+            videoChangeBlock = true;
+            await ChangeVideoAsync();
+        }
+        else if (videoChangeBlock)
+        {
+            videoChangeBlock = false;
+        }
+    }
+
+    public Task StartBackgroundAsync()
+    {
+        started = true;
+        return PlayVideoAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_jsModule != null)
+        {
+            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", primaryVideo);
+            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", secondaryVideo);
+            await _jsModule.DisposeAsync();
+        }
+
+        _objRef?.Dispose();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var groups = await AerialService.GetAerialGroupsAsync();
+        aerials = groups?.SelectMany(group => group.Videos).Shuffle().ToList() ?? [];
+        primarySource = GetUri(aerials[aerialIndex], Aerial.Resolution.Uhd)?.OriginalString ?? "";
+        secondarySource = GetUri(NextAerial(), Aerial.Resolution.Uhd)?.OriginalString ?? "";
+        await base.OnInitializedAsync();
+    }
+
+    private async Task PlayVideoAsync()
+    {
+        if (_jsModule != null)
+        {
+            await _jsModule.InvokeVoidAsync("playVideo", isUsingPrimaryVideo ? primaryVideo : secondaryVideo);
+        }
+    }
+
+    private async Task PauseVideoAsync()
+    {
+        if (_jsModule != null)
+        {
+            await _jsModule.InvokeVoidAsync("pauseVideo", primaryVideo);
+            await _jsModule.InvokeVoidAsync("pauseVideo", secondaryVideo);
+        }
+    }
+
+    private Aerial NextAerial()
+    {
+        aerialIndex += 1;
+        if (aerialIndex >= aerials.Count)
+        {
+            aerialIndex = 0;
+        }
+
+        return aerials[aerialIndex];
+    }
+
+    private async Task ChangeVideoAsync()
+    {
+        Aerial nextAerial = NextAerial();
+        isUsingPrimaryVideo = !isUsingPrimaryVideo;
+        if (isUsingPrimaryVideo)
+        {
+            primarySource = GetUri(nextAerial)?.OriginalString ?? "";
+        }
+        else
+        {
+            secondarySource = GetUri(nextAerial)?.OriginalString ?? "";
+        }
+        nextCaptionTime = 0;
+        await InvokeAsync(() => StateHasChanged());
+        await PlayVideoAsync();
+    }
+
+    private static Uri? GetUri(Aerial aerial, Aerial.Resolution resolution = Aerial.Resolution.HD, Aerial.ColorRange
+    colorRange = Aerial.ColorRange.Sdr)
+    => aerial.Variants.FirstOrDefault(variant => variant.Resolution == resolution && variant.ColorRange == colorRange)?.Uri;
+
+    private string GetCaption(double currentTime)
+    {
+        Aerial aerial
+        return aerial.Captions
+    .OrderBy(caption => caption.Seconds)
+    .LastOrDefault(caption => caption.Seconds < currentTime)?.Text
+    ?? aerial.Captions
+    .OrderBy(caption => caption.Seconds)
+    .FirstOrDefault()?
+    .Text ?? "No Info";
+    }
+
+    private Aerial GetCurrentPlayingAerial()
+    {
+        
+    }
+
+    enum VideoState
+    {
+        Stopped,
+        PrimaryPlaying,
+        SecondaryPlaying,
+        TransitioningToPrimary,
+        TransitioningToSecondary
     }
 }

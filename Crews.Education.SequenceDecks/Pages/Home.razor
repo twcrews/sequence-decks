@@ -2,17 +2,27 @@
 @using Crews.Education.SequenceDecks.Models
 @inject HttpClient Http
 
+<Background @ref="background" />
 <PageTitle>Sequence Decks</PageTitle>
 
 Hello, world!
 
+<button onclick="@StartBackgroundAsync">Start Background</button>
+
 @((MarkupString)string.Join("<br><br>========<br><br>", decks?.Select(deck => $"{deck.Color}<br><br>{string.Join("<br>", deck.Content)}") ?? ["Loading decks..."]))
 
 @code {
+
+	private Background background;
 	private IEnumerable<Deck>? decks;
 
 	protected override async Task OnInitializedAsync()
 	{
 		decks = await Http.GetFromJsonAsync<IEnumerable<Deck>>("decks.json");
+	}
+
+	private Task StartBackgroundAsync()
+	{
+		return background?.StartBackgroundAsync() ?? Task.CompletedTask;
 	}
 }

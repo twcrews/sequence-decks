@@ -14,12 +14,10 @@
 }
 
 @code {
-	private CardModel[]? cards;
+	private Deck.Card[]? cards;
 
-	protected override async Task OnInitializedAsync()
+	protected override void OnInitialized()
 	{
-		IEnumerable<Deck>? decks = await DeckService.GetDecksAsync();
-		cards = decks?.First().GetCards().ToArray();
 	}
 
 	private void HandleClick()
