@@ -1,35 +1,23 @@
-﻿<div class="container @(_videoLoaded ? "loaded" : "")" style="background-color: black;">
-    <video @ref="_videoElement"
-           id="background-video"
-           class="video"
-           autoplay
-           loop
-           muted
-           playsinline
-           @onloadeddata="OnVideoLoaded">
-        <source src="@VideoSource" type="video/mp4" />
-    </video>
-</div>
+﻿@using Crews.Education.SequenceDecks.Extensions
+@inject IAerialService AerialService
 
-
-@code {
-    private ElementReference _videoElement;
-    private bool _videoLoaded = false;
-
-    [Parameter]
-    public required string VideoSource { get; set; }
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+<video id="background-video" autoplay loop muted>
+    @foreach (Aerial aerial in aerials)
     {
-        if (firstRender)
-        {
-            // Additional initialization if needed
-        }
-        await base.OnAfterRenderAsync(firstRender);
+        <source src="@GetUri(aerial, Aerial.Resolution.HD, Aerial.ColorRange.Sdr)" />
+    }
+</video>
+
+@code
+{
+    private IEnumerable<Aerial> aerials = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        IEnumerable<AerialGroup> groups = await AerialService.GetAerialGroupsAsync() ?? [];
+        aerials = groups.SelectMany(group => group.Videos).Shuffle();
     }
 
-    private void OnVideoLoaded()
-    {
-        _videoLoaded = true;
-    }
+    private static Uri? GetUri(Aerial aerial, Aerial.Resolution resolution, Aerial.ColorRange colorRange)
+        => aerial.Variants.FirstOrDefault(variant => variant.Resolution == resolution && variant.ColorRange == colorRange)?.Uri;
 }
