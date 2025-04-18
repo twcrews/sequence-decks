@@ -2,13 +2,7 @@
     videoElement.play();
 }
 
-export function pauseVideo(videoElement) {
-    videoElement.pause();
-}
-
 export function registerTimeUpdate(videoElement, dotNetHelper) {
-    videoElement._dotNetHelper = dotNetHelper;
-
     videoElement._timeUpdateCallback = function () {
         const currentTimeInSeconds = videoElement.currentTime;
         const durationInSeconds = videoElement.duration;
@@ -22,7 +16,21 @@ export function registerTimeUpdate(videoElement, dotNetHelper) {
 export function unregisterTimeUpdate(videoElement) {
     if (videoElement._timeUpdateCallback) {
         videoElement.removeEventListener('timeupdate', videoElement._timeUpdateCallback);
-        videoElement._timeUpdateCallback = null;
-        videoElement._dotNetHelper = null;
     }
+}
+
+export function registerCanPlayThrough(videoElement, dotNetHelper) {
+    videoElement.load();
+
+    if (videoElement.readyState > 2) {
+        dotNetHelper.invokeMethodAsync('OnNextVideoCanPlayThrough');
+        return;
+    }
+
+    videoElement._canPlayThroughCallback = function () {
+        dotNetHelper.invokeMethodAsync('OnNextVideoCanPlayThrough');
+        videoElement.removeEventListener('canplaythrough', videoElement._canPlayThroughCallback);
+    }
+
+    videoElement.addEventListener('canplaythrough', videoElement._canPlayThroughCallback);
 }

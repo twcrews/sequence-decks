@@ -1,0 +1,4074 @@
+[
+  {
+    "Location": "Alabama",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_alabama_montgomery_countryside_00007.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_alabama_montgomery_countryside_00007.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over the Montgomery countryside, Alabama"
+          }
+        ],
+         "ID": "94f2b9a9-5f8e-43d5-bee5-2be0a01e2ec2",
+        "Author": "Jetson Creative"
+      }
+    ]
+  },
+  {
+    "Location": "Arizona",
+    "Videos": [
+      {
+         "ID": "7d9d6119-93d4-4c1c-5b25-2521cd89fc0b",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/G007_C004_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/G007_C004_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Colorado River through the Grand Canyon in the United States"
+          }
+        ]
+      },
+      {
+         "ID": "c3cd54c2-944a-c6c0-f23b-86baf038b5da",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/G008_C015_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/G008_C015_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over the Burnt Canyon area of the Grand Canyon, United States"
+          }
+        ]
+      },
+      {
+         "ID": "a91d70d4-303b-bfda-cdda-37c75b2f8c78",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/G009_C003_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/G009_C003_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over the Grand Canyon in the United States"
+          }
+        ]
+      },
+      {
+         "ID": "cab93127-a4bf-781f-b231-c5065b0fe645",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/G009_C014_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/G009_C014_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through the Grand Canyon in the United States"
+          }
+        ]
+      },
+      {
+         "ID": "c63e0473-affb-ccb0-251d-afd234997dc1",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/G010_C026_UHD_SDR_v02_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/G010_C026_UHD_SDR_v02_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the Colorado River in the Grand Canyon, United States"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "California",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A013_C012_0122D6_CC_v01_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Alongside the Golden Gate Bridge heading toward the Marin Headlands"
+          },
+          {
+            "Seconds": 230,
+            "Text": "Passing by the North Tower of the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Crossing over the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 260,
+            "Text": "Over San Francisco Bay traveling alongside the Golden Gate Bridge"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching the Golden Gate Bridge from San Francisco"
+          }
+        ],
+         "ID": "56bb8fe8-a04d-8070-ea20-a03346e69dae",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A015_C018_0128ZS_v03_SDR_PS_FINAL_20180709__SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 80,
+            "Text": "Crossing over the Bay Bridge heading toward downtown San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching the Bay Bridge and downtown San Francisco"
+          },
+          {
+            "Seconds": 116,
+            "Text": "Over San Francisco Bay heading toward downtown"
+          }
+        ],
+         "ID": "1b8f26b7-d957-dd07-706d-b7718ae69bdc",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A006_C003_1219EE_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A006_C003_1219EE_CC_v01_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 191,
+            "Text": "Over San Francisco Bay"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Heading over the north tower of the Golden Gate Bridge toward San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "San Francisco Bay and the Golden Gate Bridge"
+          }
+        ],
+         "ID": "a1d656c3-cb1c-792d-f9c7-c9e3a29bf044",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_1223LV_FLARE_v21_SDR_PS_FINAL_20180709_F0F5700_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_1223LV_FLARE_v21_SDR_PS_FINAL_20180709_F0F5700_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Following Market Street through downtown San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the San Francisco Bay moving toward the Embarcadero"
+          },
+          {
+            "Seconds": 360,
+            "Text": "Following Market Street through San Francisco"
+          },
+          {
+            "Seconds": 90,
+            "Text": "Over the Embarcadero looking down Market Street in San Francisco"
+          }
+        ],
+         "ID": "41874580-edf0-50fa-4277-49dc78edbcae",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A008_C007_011550_CC_v01_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A008_C007_011550_CC_v01_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Crossing the Golden Gate Bridge toward the Presidio of San Francisco"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Marin Headlands looking toward the Golden Gate Bridge"
+          }
+        ],
+         "ID": "b0a6852c-fb23-28a0-c4b2-998eb5bdf737",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A012_C014_1223PT_v53_SDR_PS_FINAL_20180709_F0F8700_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A012_C014_1223PT_v53_SDR_PS_FINAL_20180709_F0F8700_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over San Francisco Bay moving toward the Embarcadero"
+          },
+          {
+            "Seconds": 208,
+            "Text": "Following Market Street through San Francisco"
+          }
+        ],
+         "ID": "6c1c29d3-0963-c886-5b31-a9d1b4882aad",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A007_C017_01156B_v02_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A007_C017_01156B_v02_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 80,
+            "Text": "Approaching Coit Tower with downtown San Francisco and the Bay Bridge in the background"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Passing Coit Tower toward downtown San Francisco and the Bay Bridge"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Fisherman’s Wharf heading toward downtown San Francisco"
+          },
+          {
+            "Seconds": 196,
+            "Text": "Downtown San Francisco"
+          }
+        ],
+         "ID": "0b63a630-968f-d995-5bca-b4a2328fcdb7",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 430,
+            "Text": "Over Santa Monica State Beach near Los Angeles"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Santa Monica State Beach near Los Angeles"
+          },
+          {
+            "Seconds": 365,
+            "Text": "Passing over Santa Monica Pier near Los Angeles"
+          }
+        ],
+         "ID": "ed5a7569-4bb8-bd72-89e7-0790c2043a09",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A008_C004_ALTB_ED_FROM_FLAME_RETIME_v46_SDR_PS_20180917_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following Interstate 110 north through Los Angeles"
+          }
+        ],
+         "ID": "1b9d06ee-c809-beaf-de77-c5115755995d",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A005_C009_PSNK_ALT_v09_SDR_PS_201809134_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A005_C009_PSNK_ALT_v09_SDR_PS_201809134_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing Downtown Los Angeles"
+          }
+        ],
+         "ID": "3add09ad-5cff-4fd2-7764-333ed07d08cd",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_PS_20181002_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A011_C003_DGRN_LNFIX_STAB_v57_SDR_PS_20181002_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 250,
+            "Text": "Over the Hollywood Hills approaching Burbank, California"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The Hollywood Sign in Los Angeles"
+          }
+        ],
+         "ID": "7ee9b621-2009-27af-c7b7-e4069ac62adc",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A006_C004_v01_SDR_FINAL_PS_20180730_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A006_C004_v01_SDR_FINAL_PS_20180730_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Los Angeles International Airport"
+          }
+        ],
+         "ID": "39996246-a142-8840-8e51-1017af473c30",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A006_C008_PSNK_ALL_LOGOS_v10_SDR_PS_FINAL_20180801_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A006_C008_PSNK_ALL_LOGOS_v10_SDR_PS_FINAL_20180801_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Griffith Observatory and the Hollywood Hills in Los Angeles"
+          }
+        ],
+         "ID": "3023ca13-72f9-6f8d-fe68-b07fcc0459ad",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LA_A009_C009_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LA_A009_C009_PSNK_v02_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_2020_00001.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_2020_00001.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Big Sur, California"
+          }
+        ],
+         "ID": "8b72a98a-23dd-46a7-a443-0cfc45e8f3d7",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_bixby_005.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_bixby_005.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Big Sur, California"
+          }
+        ],
+         "ID": "36c6199c-785e-4806-a92e-30485a179307",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_landscape_054.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_big-sur_landscape_054.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Big Sur, California"
+          }
+        ],
+         "ID": "200cf31f-54fe-44fd-bdfc-c6da6c26a05c",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_catalina_00005.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_catalina_00005.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Catalina, California"
+          }
+        ],
+         "ID": "8cae7bc0-dd39-416b-983f-aa3dcb4da6f5",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_catalina_avalon_00053.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_catalina_avalon_00053.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Catalina, California"
+          }
+        ],
+         "ID": "aaa5ce74-9d85-4d99-92e1-598b43997324",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_santa-barbara_050.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_santa-barbara_050.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Santa Barbara, California"
+          }
+        ],
+         "ID": "386a7225-ba25-470f-b1db-77cdd637891e",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_vineyard_sierra-mar_sunrise_110.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_california_vineyard_sierra-mar_sunrise_110.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over a vineyard in California"
+          }
+        ],
+         "ID": "a4e3c961-20c7-45e2-8a2d-0a8fb85bbac8",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_sanfrancisco_castro_005.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_sanfrancisco_castro_005.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over San Francisco, California"
+          }
+        ],
+         "ID": "30858061-b089-4e13-bb11-dd0ee5d918bd",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 146,
+            "Text": "Half Dome and Nevada Fall in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 124,
+            "Text": "Passing by Half Dome and approaching Nevada Fall in Yosemite National Park"
+          }
+        ],
+         "ID": "39355abd-7241-4798-5573-22ba3f2340de",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y004_C015_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y004_C015_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 285,
+            "Text": "Nevada, Vernal, and Illilouette Falls in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Traveling toward Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Over Yosemite National Park with Nevada Fall in the distance"
+          },
+          {
+            "Seconds": 60,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park in the United States"
+          },
+          {
+            "Seconds": 255,
+            "Text": "Nevada and Illilouette Falls in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "4d88c87e-5ffa-dd3a-7e71-f6fe624916f2",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y005_C003_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y005_C003_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Over Yosemite National Park in the United States"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Approaching Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park in the United States"
+          },
+          {
+            "Seconds": 87,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "dd95f05b-0f31-c117-8b8d-b03e34ad4ee0",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y002_C013_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y002_C013_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 93,
+            "Text": "Traveling toward Merced Peak in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 244,
+            "Text": "Traveling over Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 221,
+            "Text": "Passing by Merced Peak in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Merced Peak in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "a21ea851-54e1-1871-d6e4-95eaf514180b",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y003_C009_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y003_C009_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 87,
+            "Text": "Passing El Capitan, Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 470,
+            "Text": "Traveling past Half Dome in Yosemite Valley, United States"
+          },
+          {
+            "Seconds": 44,
+            "Text": "Traveling east toward El Capitan in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 585,
+            "Text": "Traveling east over Yosemite Valley, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling toward Bridalveil Fall and El Capitan in Yosemite National Park"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Traveling east toward Half Dome in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 390,
+            "Text": "Half Dome in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "faa0fa5e-1887-67d1-45be-0c0163fd3676",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y011_C001_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y011_C001_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing over Tuolumne Meadows in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "199f0028-0147-96ce-3cd8-da2945e31e9a",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y009_C015_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y009_C015_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 396,
+            "Text": "Moving toward Tuolumne Meadows in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling toward Matthes Crest in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 215,
+            "Text": "Flying over Matthes Crest in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Flying over Matthes Crest in Yosemite National Park, United States"
+          },
+          {
+            "Seconds": 124,
+            "Text": "Flying through Matthes Crest in Yosemite National Park, United States"
+          }
+        ],
+         "ID": "fc0c2001-0ec9-bec4-91df-53c184eacdac",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/Y011_C008_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/Y011_C008_SDR_4K_HEVC.mov"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "Chile",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/P001_C005_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/P001_C005_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moving along Cuernos del Paine in Torres del Paine National Park, Chile"
+          }
+        ],
+         "ID": "16ae4181-8bab-4d85-a15e-35abbd55c132",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/P005_C002_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/P005_C002_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along Lago Nordenskjöld in Torres del Paine National Park, Chile"
+          }
+        ],
+         "ID": "f72447e1-a7ce-47ea-4757-84e097a56ce9",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/P006_C002_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/P006_C002_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Lago Nordenskjöld in Torres del Paine National Park, Chile"
+          }
+        ],
+         "ID": "51ae57d8-669a-ab7d-53e7-1002428d1277",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/P007_C027_UHD_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/P007_C027_UHD_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Torres del Paine National Park in Chile"
+          }
+        ],
+         "ID": "7bb20076-1948-ec44-1051-b7986fefe53c",
+        "Author": "Apple Inc."
+      }
+    ]
+  },
+  {
+    "Location": "China",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Passing over the Longji rice terraces in Guangxi Province, China"
+          }
+        ],
+         "ID": "d44796af-8023-5543-b256-d098d42a0135",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_CH_C002_C005_PSNK_v05_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_CH_C002_C005_PSNK_v05_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Exploring Wulingyuan National Park in China"
+          }
+        ],
+         "ID": "a1dd1a05-201f-eca9-81a9-8eab6f4d2386",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_CH_C007_C004_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_CH_C007_C004_PSNK_v02_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+         "ID": "5af970ae-839b-1fdb-e9a3-700c29c87c50",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_C003_C003_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 10,
+            "Text": "Over central China traveling toward Shanghai"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over Shanghai moving toward the East China Sea"
+          },
+          {
+            "Seconds": 30,
+            "Text": "Heading over eastern China approaching Shanghai"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over central Asia traveling toward coastal China"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Approaching Shanghai heading toward the East China Sea"
+          }
+        ],
+         "ID": "78d333df-cbc2-9de4-d72c-4ea7ba89b744",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_113NC_396B_1105_CHINA_v04_SDR_FINAL_20180706_F900F2700_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_113NC_396B_1105_CHINA_v04_SDR_FINAL_20180706_F900F2700_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through Wulingyuan National Park in China"
+          }
+        ],
+         "ID": "ceaa79f3-91bd-d632-6c39-57bb1a89b4a3",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_CH_C007_C011_PSNK_v02_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_CH_C007_C011_PSNK_v02_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+         "ID": "7069849c-5e6a-b028-3a24-57ef52ff802c",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_C001_C005_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_C001_C005_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Mutianyu section of the Great Wall in Huairou District, China"
+          }
+        ],
+         "ID": "2778060c-7960-23aa-4399-0d53c9ec72c0",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_C004_C003_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_C004_C003_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_HK_B005_C011_PSNK_v16_SDR_PS_20180914_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Victoria Harbour heading toward Central Hong Kong"
+          }
+        ],
+         "ID": "5205c912-b49f-0b70-3b1c-cacca561e65a",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_HK_H004_C010_PSNK_v08_SDR_PS_20181009_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_HK_H004_C010_PSNK_v08_SDR_PS_20181009_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Victoria Peak in Hong Kong"
+          },
+          {
+            "Seconds": 330,
+            "Text": "Over Victoria Harbour approaching the Kowloon Peninsula"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Flying over Hong Kong toward Victoria Harbour"
+          }
+        ],
+         "ID": "099eac0e-db3b-0aa1-e410-c272e5de6d0c",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/HK_H004_C013_2K_SDR_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/HK_H004_C013_4K_SDR_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Wan Chai approaching Central Hong Kong"
+          },
+          {
+            "Seconds": 270,
+            "Text": "Over Hong Kong Island"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over Central Hong Kong"
+          }
+        ],
+         "ID": "5bdb46d4-4ffb-6784-1205-8cbcab567244",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_HK_H004_C008_PSNK_v19_SDR_PS_20180914_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_HK_H004_C008_PSNK_v19_SDR_PS_20180914_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over Victoria Harbour facing Hong Kong Island"
+          }
+        ],
+         "ID": "5deef5ff-191e-aa30-4442-51ac9e7c2a4d",
+        "Author": "Apple Inc."
+      }
+    ]
+  },
+  {
+    "Location": "Denmark",
+    "Videos": [
+      {
+         "ID": "4daac3c2-bb68-63a9-d818-be3377708553",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Ilulissat Icefjord off the coast of Greenland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GL_G002_C002_PSNK_v03_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "aa408ac5-6077-14cb-129c-191d97242f00",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the Nuussuaq Peninsula in Greenland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GL_G004_C010_PSNK_v04_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "fca3a0b6-b1f9-8af5-37fa-64f6ec8d8c3c",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Ilulissat Icefjord off the coast of Greenland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GL_G010_C006_PSNK_NOSUN_v12_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GL_G010_C006_PSNK_NOSUN_v12_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "Dubai",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 330,
+            "Text": "Over Downtown Dubai approaching the coast"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Burj Khalifa in Downtown Dubai, United Arab Emirates"
+          },
+          {
+            "Seconds": 280,
+            "Text": "Passing by Burj Khalifa in Downtown Dubai, United Arab Emirates"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_DB_D011_C010_PSNK_DENOISE_v19_SDR_PS_20180914_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_DB_D011_C010_PSNK_DENOISE_v19_SDR_PS_20180914_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "b07cfe1d-8929-30fc-b857-7321c29e5860",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling along Sheikh Zayed Road in Dubai, United Arab Emirates"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_DB_D008_C010_PSNK_v21_SDR_PS_20180914_F0F16157_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "5de6b08b-cc6a-888a-5c73-75d99962d3bf",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Heading over Downtown Dubai in the United Arab Emirates"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Downtown Dubai in the United Arab Emirates"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_DB_D002_C003_PSNK_v04_SDR_PS_20180914_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_DB_D002_C003_PSNK_v04_SDR_PS_20180914_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "066681bf-63ce-e45e-141f-d47723e88011",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Dubai Marina in the United Arab Emirates"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_DB_D001_C001_PSNK_v06_SDR_PS_20180824_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "b3cfc5a3-4d91-a141-6b9b-45b140749333",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying along Dubai Marina in the United Arab Emirates"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_DB_D001_C005_COMP_PSNK_v12_SDR_PS_20180912_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_DB_D001_C005_COMP_PSNK_v12_SDR_PS_20180912_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "4e67172d-4c45-9bf5-9a58-d58c19537c9d",
+        "Author": "Apple Inc."
+      }
+    ]
+  },
+  {
+    "Location": "Florida",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_florida_miami_brickell_sunset_00036.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_florida_miami_brickell_sunset_00036.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Miami, Florida"
+          }
+        ],
+         "ID": "ba595785-e95f-44ac-83c6-c345a779fc5b",
+        "Author": "Jetson Creative"
+      }
+    ]
+  },
+  {
+    "Location": "France",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_mont_blanc_2_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_mont_blanc_2_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "188066cf-5bca-4902-b956-f4fd427f4b25",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_sea_of_clouds_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_sea_of_clouds_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "b3f8cf5d-1ad5-4c4b-8a4f-9bac62cd23f6",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_sea_of_clouds_2_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_french_alps_sea_of_clouds_2_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "4ba68f45-4bb3-488a-beff-d9051418e9d3",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_CapMechant2_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_CapMechant2_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "ec0fc1d5-bf04-4a66-93a1-806a38af8926",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_CapMechant_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_CapMechant_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "ab741f61-88e2-49be-8f40-092db13b04c1",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_GrandCoude_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_GrandCoude_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "9f9b60cf-31d1-4d4b-99cb-661cc959867f",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_GrandEtang_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_GrandEtang_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "789783ae-0fd3-4486-a3fd-9ea477923c03",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_Lagon_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_Lagon_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "1c2401bc-7921-4d39-8b9b-07e242043e23",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_Mafate_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_Mafate_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "9426d361-3cbf-442c-9d9c-e767bd2b8754",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_PitonDesNeiges_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_PitonDesNeiges_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "ac0a52b1-4dfe-472f-ba19-97702774d6ba",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_PitonFournaise_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_PitonFournaise_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "4803bcc4-0315-4314-927e-c831a7edd415",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_TrestaStar_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_TrestaStar_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "80fede08-7ebd-461d-b569-fd04b025dda6",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_TrouDeFer_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reunion_TrouDeFer_4k_hevc.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over France"
+          }
+        ],
+         "ID": "c08e18f8-b0ed-432b-b026-85f485d6c75c",
+        "Author": "Robin Fourcade"
+      }
+    ]
+  },
+  {
+    "Location": "Hawaii",
+    "Videos": [
+      {
+         "ID": "2b076b95-a111-c980-2294-3bc330346137",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_H012_C009_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Kohala coastline on the island of Hawai'i"
+          }
+        ]
+      },
+      {
+         "ID": "a61c5230-41fc-d7c8-8617-eb86475148d3",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_H004_C009_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_H004_C009_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Above the Pu'u O 'Umi Natural Area Reserve, on the island of Hawai'i"
+          }
+        ]
+      },
+      {
+         "ID": "699e17ae-abba-6f01-3cf5-f9d92cdf2e89",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_H005_C012_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "The Waimanu Valley in the Kohala Forest Reserve on the island of Hawai'i"
+          }
+        ]
+      },
+      {
+         "ID": "995a0471-319c-387c-36c0-faf58929084d",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_H004_C007_PS_v02_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_H004_C007_PS_v02_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Above the Pu'u O 'Umi Natural Area Reserve, on the island of Hawai'i"
+          }
+        ]
+      },
+      {
+         "ID": "5a0745b9-f8e4-51e2-1fab-e93e4463cc76",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_H007_C003_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_H007_C003_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Laupāhoehoe Nui in the Kohala Forest Reserve on the island of Hawai'i"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "Iceland",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Tungnaá in the Icelandic highlands"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I003_C008_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I003_C008_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "c67ada55-cc11-8345-17f2-66310715c470",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Following the Jökulgilskvísl river in Landmannalaugar, Iceland"
+          },
+          {
+            "Seconds": 308,
+            "Text": "Traveling over the Icelandic highlands"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I003_C011_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I003_C011_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "4197a110-7022-5c25-cb83-1e318284729d",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Landmannalaugar in Iceland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I004_C014_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I004_C014_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "95924c01-7969-6e8f-788b-e7d9dda66211",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling through Jökulgil in Landmannalaugar, Iceland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I003_C015_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I003_C015_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "a6603172-649a-eae1-5b4a-52c30bc5be95",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Langisjór in Iceland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I003_C004_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I003_C004_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "ca706446-b36c-ab03-9c58-55f76d71dcb8",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 324,
+            "Text": "Traveling over Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Approaching Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 225,
+            "Text": "Mýrdalsjökull glacier in Iceland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Moving toward Mýrdalsjökull glacier in Iceland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/I005_C008_CROP_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/I005_C008_CROP_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "7fd73a5a-304c-73a8-2493-b463d15436bb",
+        "Author": "Apple Inc."
+      }
+    ]
+  },
+  {
+    "Location": "International Space Station",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT312_162NC_139M_1041_AFRICA_NIGHT_v14_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT312_162NC_139M_1041_AFRICA_NIGHT_v14_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 230,
+            "Text": "Traveling over Ukraine toward Russia"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Moving over the Mediterranean Sea toward Italy"
+          },
+          {
+            "Seconds": 140,
+            "Text": "Over southern Italy approaching the Balkan Peninsula with Turkey in the distance"
+          },
+          {
+            "Seconds": 100,
+            "Text": "The Mediterranean coast of Tunisia and Libya"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over the Balkan Peninsula approaching the Black Sea"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling northeast over the Sahara at night"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Traveling over the Black Sea toward Ukraine"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Over the Grand Erg Oriental heading toward the Mediterranean Sea"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over the Balkan Peninsula moving toward the Black Sea"
+          }
+        ],
+         "ID": "9c6b969b-6201-2359-e5a4-ead2ba3889e8",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A103_C002_0205DG_v12_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A103_C002_0205DG_v12_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 115,
+            "Text": "The Gulf of Oman approaching the Makran Coast"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over Afghanistan and Pakistan moving toward the Karakoram Range"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Over Iran moving toward Afghanistan and Pakistan"
+          },
+          {
+            "Seconds": 235,
+            "Text": "Over the Karakoram Range traveling into China"
+          },
+          {
+            "Seconds": 280,
+            "Text": "The Takla Makan Desert in western China"
+          },
+          {
+            "Seconds": 315,
+            "Text": "The Tian Shan mountains in Central Asia"
+          },
+          {
+            "Seconds": 45,
+            "Text": "The southeastern Arabian Peninsula"
+          },
+          {
+            "Seconds": 145,
+            "Text": "The Makran Coast of Iran and Pakistan"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Horn of Africa traveling toward the Gulf of Aden"
+          }
+        ],
+         "ID": "46ed7936-4739-4d73-5ff1-6081f77c5c56",
+        "Author": "Apple Inc."
+      },
+      {
+         "ID": "c1a1afd8-e790-d335-facf-340d6bdea756",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Aurora Australis over Antarctica"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT110_112NC_364D_1054_AURORA_ANTARTICA__COMP_FINAL_v34_PS_SDR_20181107_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT110_112NC_364D_1054_AURORA_ANTARTICA__COMP_FINAL_v34_PS_SDR_20181107_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "906ab601-1a4a-3343-8913-6b4b1941712f",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A001_C001_120530_v04_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A001_C001_120530_v04_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "Moving away from the Iberian Peninsula and passing over the Bay of Biscay and France"
+          },
+          {
+            "Seconds": 115,
+            "Text": "Over Portugal and Spain"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over Western Europe with the North Atlantic Ocean in the distance"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the North Atlantic Ocean heading toward Portugal"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 220,
+            "Text": "Over Northern Territory, Australia moving toward New Guinea"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Over Western Australia approaching Northern Territory"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Indian Ocean heading toward Perth, Australia"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Traveling northeast across Western Australia"
+          },
+          {
+            "Seconds": 335,
+            "Text": "Over the Arafura Sea traveling toward New Guinea"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT060_117NC_363D_1034_AUSTRALIA_v35_SDR_PS_FINAL_20180731_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT060_117NC_363D_1034_AUSTRALIA_v35_SDR_PS_FINAL_20180731_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "9dba81a7-d16d-5f08-1ae7-9412dcb2b835",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 170,
+            "Text": "Over the Rocky Mountains in the United States"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over Las Vegas heading toward Salt Lake City in the United States"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Passing between Salt Lake City and Denver in the United States"
+          },
+          {
+            "Seconds": 85,
+            "Text": "Passing over Los Angeles on the west coast of the United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward the California coast"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Over the western United States approaching Salt Lake City"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Over the California coast traveling inland"
+          },
+          {
+            "Seconds": 95,
+            "Text": "Over Los Angeles approaching Las Vegas in the United States"
+          }
+        ],
+         "ID": "de88c100-f31f-ae53-7a05-3e1a9a5535be",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT306_139NC_139J_3066_CALI_TO_VEGAS_v08_SDR_PS_20180824_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT306_139NC_139J_3066_CALI_TO_VEGAS_v08_SDR_PS_20180824_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "26eac3ad-7d7a-aa46-1e1c-cf9ac01c9010",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward Central America"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Crossing Central America toward the Caribbean Sea"
+          },
+          {
+            "Seconds": 70,
+            "Text": "The southwest coast of Central America heading toward the Caribbean Sea"
+          },
+          {
+            "Seconds": 300,
+            "Text": "Over Florida and the Bahamas traveling toward the Sargasso Sea"
+          },
+          {
+            "Seconds": 350,
+            "Text": "Over the Sargasso Sea heading out into the Atlantic Ocean"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Over Cuba with Florida and the Bahamas beyond"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over the Caribbean Sea moving toward Cuba"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A105_C002_v06_SDR_FINAL_25062018_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A105_C002_v06_SDR_FINAL_25062018_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "e1d976ec-34b6-5a19-55eb-9bbe1b51085c",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Traveling over the Pacific Ocean toward Central America"
+          },
+          {
+            "Seconds": 125,
+            "Text": "Crossing over Cuba looking toward Haiti and the Dominican Republic"
+          },
+          {
+            "Seconds": 190,
+            "Text": "Turks and Caicos Islands in the Atlantic Ocean"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Traveling over the Bahamas looking toward Haiti and the Dominican Republic"
+          },
+          {
+            "Seconds": 65,
+            "Text": "The Mosquito Coast of Nicaragua"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Passing over Central America with South America in the distance"
+          },
+          {
+            "Seconds": 35,
+            "Text": "The Pacific coasts of Nicaragua, Costa Rica, and Panama"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Passing by a cloud-covered Jamaica in the Caribbean Sea"
+          },
+          {
+            "Seconds": 85,
+            "Text": "Over the Caribbean Sea traveling toward Cuba"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A108_C001_v09_SDR_FINAL_22062018_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A108_C001_v09_SDR_FINAL_22062018_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 285,
+            "Text": "Over the Bahamas approaching the Dominican Republic and Haiti"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Over the southeast United States heading toward Florida"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Heading southeast over the Great Plains of the United States"
+          },
+          {
+            "Seconds": 300,
+            "Text": "Over the Dominican Republic and Haiti approaching the Caribbean Sea"
+          },
+          {
+            "Seconds": 315,
+            "Text": "Over the Caribbean Sea heading south toward Venezuela"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Moving southeast over the Bahamas"
+          },
+          {
+            "Seconds": 90,
+            "Text": "Heading southeast over the Midwest United States"
+          },
+          {
+            "Seconds": 220,
+            "Text": "Over Florida traveling toward the Bahamas"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT308_139K_142NC_CARIBBEAN_DAY_v09_SDR_FINAL_22062018_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT308_139K_142NC_CARIBBEAN_DAY_v09_SDR_FINAL_22062018_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "ae3a3cc6-50f2-f4b6-6578-62d0819fae6a",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A083_C002_1130KZ_v04_SDR_PS_FINAL_20180725_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A083_C002_1130KZ_v04_SDR_PS_FINAL_20180725_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "625b9e85-8e51-4656-e250-779c57733560",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Moving from day to night over central Asia"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The reflection of the sun along the coast of Iran"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Moving from day to night over Iran"
+          }
+        ]
+      },
+      {
+         "ID": "9b089755-4364-46be-0cd9-381edde3b94b",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_117NC_401C_1037_IRELAND_TO_ASIA_v48_SDR_PS_FINAL_20180725_F0F6300_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_117NC_401C_1037_IRELAND_TO_ASIA_v48_SDR_PS_FINAL_20180725_F0F6300_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 185,
+            "Text": "Over western Russia passing Moscow"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over eastern Europe looking toward Moscow"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Ireland and Great Britain"
+          },
+          {
+            "Seconds": 150,
+            "Text": "Over eastern Europe with Moscow in the distance"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Over Great Britain traveling toward mainland Europe"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the North Atlantic approaching Ireland and Great Britain"
+          },
+          {
+            "Seconds": 65,
+            "Text": "Over northwestern Europe heading toward Russia"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Over central Europe heading toward Russia"
+          },
+          {
+            "Seconds": 195,
+            "Text": "Over Russia traveling toward central Asia"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_113NC_396B_1105_ITALY_v03_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT329_113NC_396B_1105_ITALY_v03_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 5,
+            "Text": "Over the Mediterranean Sea looking toward Sicily and the Italian Peninsula"
+          },
+          {
+            "Seconds": 15,
+            "Text": "Over southern Italy with the Balkan Peninsula beyond"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Over southwest Russia passing by Kazakhstan"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Tunisia heading toward Italy"
+          },
+          {
+            "Seconds": 55,
+            "Text": "Over Ukraine with Russia beyond"
+          },
+          {
+            "Seconds": 25,
+            "Text": "Over the Balkan Peninsula moving toward central Asia"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Over the Balkan Peninsula passing by the Black Sea"
+          }
+        ],
+         "ID": "8d6fc894-c058-b37e-0c8f-4bbe6243c4e7",
+        "Author": "Apple Inc."
+      },
+      {
+         "ID": "c07ad529-f26a-05ed-966d-2a8ac66a612e",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT026_363A_103NC_E1027_KOREA_JAPAN_NIGHT_v18_SDR_PS_20180907_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT026_363A_103NC_E1027_KOREA_JAPAN_NIGHT_v18_SDR_PS_20180907_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 150,
+            "Text": "The Korean Peninsula with Japan in the distance"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Moving southeast over Siberia and Mongolia"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Over South Korea traveling toward Japan"
+          },
+          {
+            "Seconds": 260,
+            "Text": "Over the Pacific Ocean southeast of Japan"
+          },
+          {
+            "Seconds": 195,
+            "Text": "Over Japan looking toward the Pacific Ocean"
+          },
+          {
+            "Seconds": 22,
+            "Text": "Heading toward Inner Mongolia"
+          },
+          {
+            "Seconds": 32,
+            "Text": "Over Mongolia traveling toward China"
+          },
+          {
+            "Seconds": 60,
+            "Text": "Over northern China moving toward the Korean Peninsula"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over China heading toward the Korean Peninsula"
+          }
+        ]
+      },
+      {
+         "ID": "1619d032-62f9-7f5a-f693-0dcf9d9ca00f",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT307_136NC_134K_8277_NY_NIGHT_01_v25_SDR_PS_20180907_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean heading toward Mexico"
+          },
+          {
+            "Seconds": 190,
+            "Text": "Heading over New Orleans and the Gulf Coast of the United States"
+          },
+          {
+            "Seconds": 122,
+            "Text": "Flying over the Gulf of Mexico toward the United States"
+          },
+          {
+            "Seconds": 280,
+            "Text": "Over the eastern United States traveling toward New York"
+          },
+          {
+            "Seconds": 215,
+            "Text": "Moving over the southeastern United States"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Passing over Mexico City toward the Gulf of Mexico"
+          },
+          {
+            "Seconds": 320,
+            "Text": "Over the eastern United States approaching New York City"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Passing by Houston and approaching New Orleans in the United States"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 110,
+            "Text": "Approaching sunrise over New Zealand"
+          },
+          {
+            "Seconds": 70,
+            "Text": "Crossing from night to day over New Zealand"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Crossing from night to day over the South Pacific Ocean"
+          },
+          {
+            "Seconds": 170,
+            "Text": "Leaving New Zealand heading northeast over the Pacific Ocean"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A105_C003_0212CT_FLARE_v10_SDR_PS_FINAL_20180711_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A105_C003_0212CT_FLARE_v10_SDR_PS_FINAL_20180711_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "c0888841-5767-98f8-f4c4-323489b24fdc",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A050_C004_1027V8_v16_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A050_C004_1027V8_v16_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 20,
+            "Text": "Heading southeast over the Alps and the Po River Valley"
+          },
+          {
+            "Seconds": 185,
+            "Text": "The Mediterranean Sea and the Nile River Delta"
+          },
+          {
+            "Seconds": 220,
+            "Text": "The Eastern Desert flanked by the Nile River and the Gulf of Suez"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Heading southeast over the Red Sea"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling over Western Europe with Great Britain and Ireland in the distance"
+          },
+          {
+            "Seconds": 205,
+            "Text": "The Nile River flowing through the Sahara in Egypt"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Moving down the Italian Peninsula and the Adriatic Sea"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Traveling southeast over the Mediterranean Sea"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Greece flanked by the Ionian and Aegean Seas"
+          }
+        ],
+         "ID": "e75fa4ce-6c08-5c16-8eed-c4c77b3d7189",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 300,
+            "Text": "Heading toward the North Atlantic with the Aurora Borealis over Labrador, Canada"
+          },
+          {
+            "Seconds": 200,
+            "Text": "Over the Great Lakes approaching Ontario, Canada"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Approaching the Great Lakes with Ontario, Canada beyond"
+          },
+          {
+            "Seconds": 55,
+            "Text": "Over Mexico heading toward the southwest United States"
+          },
+          {
+            "Seconds": 210,
+            "Text": "The Aurora Borealis over western Ontario, Canada"
+          },
+          {
+            "Seconds": 235,
+            "Text": "The Aurora Borealis over northern Ontario, Canada"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Over the southwest United States"
+          },
+          {
+            "Seconds": 250,
+            "Text": "The Aurora Borealis over northern Quebec, Canada"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Over Baja California looking north toward the United States"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Over the Rocky Mountains approaching Denver"
+          },
+          {
+            "Seconds": 125,
+            "Text": "Traveling over the Great Plains of the United States"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean moving toward Baja California"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_GMT314_139M_170NC_NORTH_AMERICA_AURORA__COMP_v22_SDR_20181206_v12CC_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_GMT314_139M_170NC_NORTH_AMERICA_AURORA__COMP_v22_SDR_20181206_v12CC_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "c57ce798-c177-b6bd-20c3-27607a3692c1",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over western Africa moving toward the Sahara"
+          },
+          {
+            "Seconds": 110,
+            "Text": "Passing over the Ahaggar Mountains in the Sahara, North Africa"
+          },
+          {
+            "Seconds": 230,
+            "Text": "Approaching Italy in the Mediterranean Sea"
+          },
+          {
+            "Seconds": 155,
+            "Text": "Over the Grand Erg Oriental in North Africa moving toward the Mediterranean Sea"
+          },
+          {
+            "Seconds": 30,
+            "Text": "Crossing the Sahara in North Africa"
+          },
+          {
+            "Seconds": 245,
+            "Text": "Over Italy traveling toward the Balkan Peninsula"
+          },
+          {
+            "Seconds": 195,
+            "Text": "The coast of Tunisia and the Mediterranean Sea"
+          },
+          {
+            "Seconds": 285,
+            "Text": "Over the Balkan Peninsula heading toward the Carpathian Mountains"
+          },
+          {
+            "Seconds": 310,
+            "Text": "The Carpathian Mountains and the Black Sea"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over the coast of Tunisia traveling toward Italy"
+          }
+        ],
+         "ID": "3415faf2-dc01-4689-1aee-c90142de7ff1",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A009_C001_010181A_v09_SDR_PS_FINAL_20180725_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A009_C001_010181A_v09_SDR_PS_FINAL_20180725_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A351_C001_v06_SDR_PS_20180725_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A351_C001_v06_SDR_PS_20180725_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 190,
+            "Text": "Approaching the coast of Iran with the Zagros Mountains beyond"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Over the Arabian Peninsula moving toward Iran"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling northeast over the Ethiopian Highlands"
+          },
+          {
+            "Seconds": 240,
+            "Text": "Over the Dasht-e Lut desert in Iran"
+          },
+          {
+            "Seconds": 265,
+            "Text": "Moving toward Turkmenistan and the Garagum desert"
+          },
+          {
+            "Seconds": 360,
+            "Text": "Heading into southeastern Kazakhstan from Kyrgyzstan"
+          },
+          {
+            "Seconds": 450,
+            "Text": "Over the Altai Mountains moving into Mongolia"
+          },
+          {
+            "Seconds": 322,
+            "Text": "The Pamir-Alay Mountains and the Fergana Valley in central Asia"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Traveling over the Red Sea into the Arabian Peninsula"
+          },
+          {
+            "Seconds": 305,
+            "Text": "The Amu Darya River and the Pamir-Alay Mountains in central Asia"
+          },
+          {
+            "Seconds": 400,
+            "Text": "Traveling north over Kazakhstan"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over the Zagros Mountains in Iran"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Over the Arabian Peninsula approaching Iran"
+          },
+          {
+            "Seconds": 100,
+            "Text": "Heading northeast over the Arabian Peninsula"
+          }
+        ],
+         "ID": "d370ea98-943c-f2da-35e8-56f28e2b26ab",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 280,
+            "Text": "The Pacific Ocean off the coast of Mexico"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over southern California moving toward Mexico"
+          },
+          {
+            "Seconds": 65,
+            "Text": "Approaching the Mojave Desert in southern California with Mexico beyond"
+          },
+          {
+            "Seconds": 225,
+            "Text": "Looking south to the Pacific Ocean over the Sierra Madre del Sur in Mexico"
+          },
+          {
+            "Seconds": 95,
+            "Text": "The Gulf of California flanked by the Sonoran Desert and the Baja California Peninsula"
+          },
+          {
+            "Seconds": 290,
+            "Text": "The Pacific Ocean off the coast of Mexico and Guatemala"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Over the Sierra Madre Occidental mountains moving toward the west coast of Mexico"
+          },
+          {
+            "Seconds": 130,
+            "Text": "The Sierra Madre Occidental mountains on the west coast of Mexico"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over the Pacific Ocean heading toward the United States"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Traveling south down the coast of California"
+          }
+        ],
+         "ID": "5bed79de-0f2c-64c8-8b6c-0326f6128a5b",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A114_C001_0305OT_v10_SDR_FINAL_22062018_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A114_C001_0305OT_v10_SDR_FINAL_22062018_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "bba6ca8b-848a-f928-8ffc-474641792b99",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 145,
+            "Text": "Traveling northeast over Spain’s Costa Blanca"
+          },
+          {
+            "Seconds": 220,
+            "Text": "Moving northeast over the Alps"
+          },
+          {
+            "Seconds": 75,
+            "Text": "Passing over the Atlas Mountains in Morocco"
+          },
+          {
+            "Seconds": 125,
+            "Text": "The Mediterranean Sea and southern Spain"
+          },
+          {
+            "Seconds": 45,
+            "Text": "Moving northeast along the coast of Morocco"
+          },
+          {
+            "Seconds": 105,
+            "Text": "Over Morocco approaching the Mediterranean Sea"
+          },
+          {
+            "Seconds": 185,
+            "Text": "Over the western Mediterranean Sea with the Alps beyond"
+          },
+          {
+            "Seconds": 165,
+            "Text": "Traveling northeast over Spain’s Balearic Islands"
+          },
+          {
+            "Seconds": 0,
+            "Text": "The Canary Islands, Atlantic Ocean, and coast of Africa"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_A001_C004_1207W5_v23_SDR_FINAL_20180706_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_A001_C004_1207W5_v23_SDR_FINAL_20180706_SDR_4K_HEVC.mov"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "Italy",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_italy_como_cerano-dintelvi_006.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_italy_como_cerano-dintelvi_006.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Cerano d'Intelvi, Italy"
+          }
+        ],
+         "ID": "2fce681a-5a65-443a-8009-4748587a5599",
+        "Author": "Jetson Creative"
+      }
+    ]
+  },
+  {
+    "Location": "New York",
+    "Videos": [
+      {
+         "ID": "ad00e615-c279-f1a6-5d07-e2b87224f276",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Heading down 7th Avenue toward Times Square, New York"
+          },
+          {
+            "Seconds": 40,
+            "Text": "Over Times Square in New York"
+          },
+          {
+            "Seconds": 120,
+            "Text": "Heading down 7th Avenue in Midtown Manhattan, New York"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_N013_C004_PS_v01_SDR_PS_20180925_F1970F7193_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "21b925d1-b5ac-15f8-15f5-cb419c13671e",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 246,
+            "Text": "Over Midtown Manhattan in New York"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Central Park traveling toward Midtown Manhattan in New York"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_N008_C009_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "c2e38a72-4d22-971f-4049-f98c17aa2be6",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 110,
+            "Text": "Alongside Lower Manhattan approaching One World Trade Center"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Lower Manhattan from New York Harbor"
+          },
+          {
+            "Seconds": 180,
+            "Text": "Passing One World Trade Center toward Midtown Manhattan"
+          },
+          {
+            "Seconds": 210,
+            "Text": "Over Lower Manhattan in New York moving toward Midtown"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_N008_C003_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_N008_C003_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "79a59436-bfd0-e208-9f84-c4d198e47a07",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Over the Upper East Side and Central Park in New York"
+          },
+          {
+            "Seconds": 205,
+            "Text": "Passing the Empire State Building moving toward Lower Manhattan"
+          },
+          {
+            "Seconds": 50,
+            "Text": "Over Midtown Manhattan heading downtown toward the Empire State Building"
+          },
+          {
+            "Seconds": 160,
+            "Text": "Approaching the Empire State Building in New York"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_N003_C006_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_N003_C006_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "Norway",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_aurland_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_aurland_4k.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Norway"
+          }
+        ],
+         "ID": "1f319bf9-624b-432c-8b08-ce8b43000c48",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_hennigsvaer_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_hennigsvaer_4k.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Norway"
+          }
+        ],
+         "ID": "bee7f8cd-921d-45ac-8323-ffcb8373563d",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_nusfjord_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_nusfjord_4k.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Norway"
+          }
+        ],
+         "ID": "c5c2aa38-fd30-4d55-b045-1545035b4b93",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reine_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_reine_4k.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Norway"
+          }
+        ],
+         "ID": "5eaa4cf6-6df3-4ad9-ad87-4d44823e7b86",
+        "Author": "Robin Fourcade"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/robinfrcd_vettisfossen_1080p_hevc.m4v"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/robinfrcd_vettisfossen_4k.m4v"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Norway"
+          }
+        ],
+         "ID": "926e173b-86ef-4d2d-92ac-4f716dfc2367",
+        "Author": "Robin Fourcade"
+      }
+    ]
+  },
+  {
+    "Location": "Oregon",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00001.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00001.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Lone Ranch Beach, Oregon"
+          }
+        ],
+         "ID": "1eed1e85-a14b-4bfb-800c-194ff89db56f",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00015.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00015.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Lone Ranch Beach, Oregon"
+          }
+        ],
+         "ID": "6eb62ce2-8330-47fa-aaa4-6f7fb3243b59",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00021.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_lone-ranch-beach_00021.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Lone Ranch Beach, Oregon"
+          }
+        ],
+         "ID": "9982df39-41fd-4616-a51d-b7e6a9218a15",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_portland_00064.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_oregon_portland_00064.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Portland, Oregon"
+          }
+        ],
+         "ID": "ead00804-af22-433b-a963-e486c492c433",
+        "Author": "Jetson Creative"
+      }
+    ]
+  },
+  {
+    "Location": "Texas",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_texas_austin_oct2019_evening_00085.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_texas_austin_oct2019_evening_00085.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Austin, Texas"
+          }
+        ],
+         "ID": "ac510f9e-0c8b-4c49-a1a7-650617cb4a51",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_texas_pecos_foggy-landscape_00018.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_texas_pecos_foggy-landscape_00018.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Pecos, Texas"
+          }
+        ],
+         "ID": "fa47c56f-3ba3-4bee-a0d1-997f76fd44da",
+        "Author": "Jetson Creative"
+      }
+    ]
+  },
+  {
+    "Location": "Underseas",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/g201_AK_A003_C014_SDR_20191113_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/g201_AK_A003_C014_SDR_20191113_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Drifting over Moon Jellyfish near the coast of Alaska, United States"
+          }
+        ],
+         "ID": "6ca7ae63-e963-021b-8503-32a57263f874",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/AK_A004_C012_SDR_20191217_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/AK_A004_C012_SDR_20191217_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moon Jellyfish near the coast of Alaska, United States"
+          }
+        ],
+         "ID": "f450f302-ce65-238b-b9e9-d62560810fee",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/BO_A018_C029_SDR_20190812_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/BO_A018_C029_SDR_20190812_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "cb4d1f59-c9e8-9c28-784b-c2aed1da8ca8",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A school of Chevron Barracuda in the waters near Borneo"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Bumphead Parrotfish over the coral reefs off Borneo"
+          }
+        ],
+         "ID": "a1240be2-b2b1-c0d9-b20b-0d7206a7c8ba",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/BO_A014_C008_SDR_20190719_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/BO_A014_C008_SDR_20190719_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+         "ID": "32af7314-9363-3ce8-d0c4-c7a6f2ebdfe3",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/DL_B002_C011_SDR_20191122_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/DL_B002_C011_SDR_20191122_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Short-beaked Common Dolphins off the California coast, United States"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/g201_CA_A016_C002_SDR_20191114_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/g201_CA_A016_C002_SDR_20191114_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Moving through a kelp forest off of the California coast, United States"
+          }
+        ],
+         "ID": "246c2d26-af94-29b4-6eb0-f9c58e03b79b",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/CR_A009_C007_SDR_20191113_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/CR_A009_C007_SDR_20191113_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "f74fc421-dd6a-978f-ef2a-c7ac2ccd5872",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Spinner Dolphins in the waters off of Costa Rica"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Cownose Rays off the coast of Mexico"
+          }
+        ],
+         "ID": "e5a9d80b-696f-0353-fa8e-ee1cf7b2fd45",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/MEX_A006_C008_SDR_20190923_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/MEX_A006_C008_SDR_20190923_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Gray Reef Sharks swimming near French Polynesia"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/FK_U009_C004_SDR_20191220_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/FK_U009_C004_SDR_20191220_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "d3d20ac3-9a77-7a3c-5f7f-ece6742d69ab",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/g201_WH_D004_L014_SDR_20191031_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/g201_WH_D004_L014_SDR_20191031_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "8a5f2d34-2ab0-e8ae-2ee7-c8b59d9437bc",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A Humpback Whale off of French Polynesia"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/BO_A014_C023_SDR_20190717_F240F3709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/BO_A014_C023_SDR_20190717_F240F3709_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "6168392b-4c0f-7246-6a31-6b67cc3cdcc1",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "A school of Bigeye Jacks off the coast of Borneo"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/KP_A010_C002_SDR_20190717_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/KP_A010_C002_SDR_20190717_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "0b521b36-0445-3d6f-fff9-6e98bbc6a7c6",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Drifting through a kelp forest near Cape Peninsula, South Africa"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Coral reef near Palau"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/PA_A004_C003_SDR_20190719_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/PA_A004_C003_SDR_20190719_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "d6d0760b-74f8-d8cb-06e9-f6c7e64fb2fa",
+        "Author": "Apple Inc."
+      },
+      {
+         "ID": "f658b092-b14b-8615-0186-63757ae308f4",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/PA_A001_C007_SDR_20190717_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/PA_A001_C007_SDR_20190717_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          },
+          {
+            "Seconds": 282,
+            "Text": "Golden Jellyfish with a Moon Jellyfish in their midst"
+          },
+          {
+            "Seconds": 348,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      },
+      {
+         "ID": "f7861a23-13a2-cc9d-2bb8-e90f92b7653b",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/PA_A002_C009_SDR_20190730_ALT01_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/PA_A002_C009_SDR_20190730_ALT01_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      },
+      {
+         "ID": "e007a22b-ddd1-9b13-32d1-377ccf5b1aa8",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/PA_A010_C007_SDR_20190717_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/PA_A010_C007_SDR_20190717_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Golden Jellyfish in the waters of Palau"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Coral reef in the Red Sea near Egypt"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/RS_A008_C010_SDR_20191218_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/RS_A008_C010_SDR_20191218_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "251b407e-aae6-3703-9921-b81c1d7d50d7",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/BO_A012_C031_SDR_20190726_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/BO_A012_C031_SDR_20190726_SDR_4K_HEVC.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Horned Sea Stars on the ocean floor near Borneo"
+          }
+        ],
+         "ID": "51d885c6-900e-3891-fd23-cca3122902ca",
+        "Author": "Apple Inc."
+      },
+      {
+         "ID": "daac3344-724a-af1f-ea7d-3301686b06c1",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Cape Fur Seals off the coast of Cape Peninsula, South Africa"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/SE_A016_C009_SDR_20190717_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/SE_A016_C009_SDR_20190717_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/g201_TH_803_A001_8_SDR_20191031_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/g201_TH_803_A001_8_SDR_20191031_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "f69bf2cc-82ac-4de5-4db8-f639106a0841",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Waves breaking on the shores of Tahiti"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/g201_TH_804_A001_8_SDR_20191031_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/g201_TH_804_A001_8_SDR_20191031_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "252bfd3f-6df7-ca3e-cc4a-68812aa4a270",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Waves breaking on the shores of Tahiti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "United Arab Emirates",
+    "Videos": [
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LW_L001_C003__PSNK_DENOISE_v04_SDR_PS_FINAL_20180803_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LW_L001_C003__PSNK_DENOISE_v04_SDR_PS_FINAL_20180803_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "7f06d994-4270-5e26-ebf3-198f660a8203",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Liwa Oasis in the United Arab Emirates"
+          }
+        ]
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_LW_L001_C006_PSNK_DENOISE_v02_SDR_PS_FINAL_20180709_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "c06f249d-cbd0-64f1-f16a-9c702a328464",
+        "Author": "Apple Inc.",
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Liwa Oasis in the United Arab Emirates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Location": "United Kingdom",
+    "Videos": [
+      {
+        "Captions": [
+          {
+            "Seconds": 299,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 24,
+            "Text": "Over Buckingham Palace in London"
+          },
+          {
+            "Seconds": 49,
+            "Text": "Over St James’s Park heading toward the River Thames, London"
+          },
+          {
+            "Seconds": 324,
+            "Text": "Crossing the River Thames at Tower Bridge in London"
+          },
+          {
+            "Seconds": 104,
+            "Text": "Crossing the River Thames and passing over the London Eye"
+          },
+          {
+            "Seconds": 149,
+            "Text": "Passing over South London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Passing over the grounds of Buckingham Palace, London"
+          },
+          {
+            "Seconds": 279,
+            "Text": "Passing by The Shard in South London"
+          }
+        ],
+         "ID": "6af63c26-642d-6a0c-a0e1-e0add6d5eb9c",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_L007_C007_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 60,
+            "Text": "Passing The Shard in South London"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 92,
+            "Text": "South of the River Thames heading toward the London Eye"
+          },
+          {
+            "Seconds": 200,
+            "Text": "Crossing the River Thames toward Westminster, London"
+          },
+          {
+            "Seconds": 270,
+            "Text": "Over Westminster, London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          }
+        ],
+         "ID": "b35b74a9-1fdd-7160-5465-61b2c615dd25",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_L012_c002_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 78,
+            "Text": "Following the River Thames in London"
+          },
+          {
+            "Seconds": 258,
+            "Text": "Crossing the River Thames in London"
+          },
+          {
+            "Seconds": 178,
+            "Text": "South of the River Thames in London"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          }
+        ],
+         "ID": "17823748-bc18-59b5-29c2-077eed0bccbe",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_L010_C006_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_L010_C006_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 210,
+            "Text": "Approaching the London Eye on the River Thames"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Approaching Tower Bridge on the River Thames, London"
+          },
+          {
+            "Seconds": 325,
+            "Text": "Passing the Houses of Parliament on the River Thames in London"
+          },
+          {
+            "Seconds": 130,
+            "Text": "Following the River Thames toward the London Eye"
+          },
+          {
+            "Seconds": 20,
+            "Text": "Following the River Thames in London"
+          },
+          {
+            "Seconds": 310,
+            "Text": "Following the River Thames past the London Eye"
+          }
+        ],
+         "ID": "515b4990-fcb8-6760-78d6-1d8a0461ecab",
+        "Author": "Apple Inc.",
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/comp_L004_C011_PS_v01_SDR_PS_20180925_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/comp_L004_C011_PS_v01_SDR_PS_20180925_SDR_4K_HEVC.mov"
+          }
+        ]
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 338,
+            "Text": "Neist Point Lighthouse, Isle of Skye, Scotland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Traveling along the coast of the Isle of Skye, Scotland"
+          },
+          {
+            "Seconds": 372,
+            "Text": "Isle of Skye, Scotland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/S003_C020_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/S003_C020_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "0a61e4b6-ef66-ad68-c87e-3c0c964ca165",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Loch Moidart on the west coast of Scotland"
+          },
+          {
+            "Seconds": 139,
+            "Text": "Approaching Castle Tioram on the west coast of Scotland"
+          },
+          {
+            "Seconds": 181,
+            "Text": "Castle Tioram on the west coast of Scotland"
+          },
+          {
+            "Seconds": 214,
+            "Text": "Traveling over the west coast of Scotland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/S006_C007_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/S006_C007_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "6bdc8f51-27e3-413a-fa0d-b9164486d56d",
+        "Author": "Apple Inc."
+      },
+      {
+        "Captions": [
+          {
+            "Seconds": 252,
+            "Text": "Approaching the Sea of Hebrides, Scotland"
+          },
+          {
+            "Seconds": 0,
+            "Text": "Over Loch Moidart on the west coast of Scotland"
+          }
+        ],
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/S005_C015_SDR_2K_HEVC.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/S005_C015_SDR_4K_HEVC.mov"
+          }
+        ],
+         "ID": "f90ae9db-c5af-ce62-2119-4e13fcb5381e",
+        "Author": "Apple Inc."
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_uk_edinburgh_arthursseat_010.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_uk_edinburgh_arthursseat_010.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Arthur's Seat in Edinburgh, Scotland"
+          }
+        ],
+         "ID": "da6ad842-2db8-4e90-8168-0469e236e947",
+        "Author": "Jetson Creative"
+      },
+      {
+        "Variants": [
+          {
+            "Resolution": "HD",
+            "Uri": "https://cdn.crews.dev/video_inspire_uk_london_hampstead-heath_003.1080-sdr.mov"
+          },
+          {
+            "Resolution": "Uhd",
+            "Uri": "https://cdn.crews.dev/video_inspire_uk_london_hampstead-heath_003.4k-sdr.mov"
+          }
+        ],
+        "Captions": [
+          {
+            "Seconds": 0,
+            "Text": "Flying over Hampstead Heath in London"
+          }
+        ],
+         "ID": "9b538800-d85e-4e8f-9639-e8ce57b30ce9",
+        "Author": "Jetson Creative"
+      }
+    ]
+  }
+]

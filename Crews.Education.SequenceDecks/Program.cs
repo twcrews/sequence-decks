@@ -16,7 +16,7 @@ builder.Services.Configure<JsonSerializerOptions>(options =>
 });
 builder.Services.Configure<JsonAerialOptions>(options =>
 {
-  options.JsonUri = new("https://raw.githubusercontent.com/twcrews/aerials/refs/heads/master/manifest.json", UriKind.Absolute);
+  options.JsonUri = new("/aerials.json", UriKind.Relative);
   options.BlacklistUri = new("/aerialsBlacklist.txt", UriKind.Relative);
 });
 builder.Services.Configure<JsonDeckOptions>(options => options.JsonUri = new("/decks.json", UriKind.Relative));
@@ -24,6 +24,8 @@ builder.Services.Configure<JsonDeckOptions>(options => options.JsonUri = new("/d
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddScoped<IAerialService, JsonAerialService>();
 builder.Services.AddScoped<IDeckService, JsonDeckService>();
+builder.Services.AddScoped<WindowService>();
+builder.Services.AddSingleton<AppStateService>();
 builder.Services.AddBlazoredLocalStorage();
 
 await builder.Build().RunAsync();

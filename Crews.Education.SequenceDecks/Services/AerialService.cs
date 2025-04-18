@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using System.Net.Http.Json;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
 namespace Crews.Education.SequenceDecks.Services;
 
@@ -27,12 +28,24 @@ public class JsonAerialService(
   {
     IEnumerable<AerialGroup>? groups = await httpClient.GetFromJsonAsync<IEnumerable<AerialGroup>>(
       serviceOptions.Value.JsonUri, jsonOptions.Value);
+    if (groups == null)
+    {
+      return null;
+    }
 
     if (serviceOptions.Value.BlacklistUri != null)
     {
       string blacklistText = await httpClient.GetStringAsync(serviceOptions.Value.BlacklistUri);
       string[] blacklist = blacklistText.Split("\n");
-      return groups?.Where(group => !blacklist.Any(item => group.Videos.Select(video => video.ID).ToString()?.Contains(item) ?? false));
+
+      List<AerialGroup> filteredGroups = [];
+      foreach (AerialGroup group in groups)
+      {
+        AerialGroup filtered = group;
+        filtered.Videos = filtered.Videos.Where(video => !blacklist.Contains(video.ID.ToString()));
+        filteredGroups.Add(filtered);
+      }
+      return filteredGroups;
     }
 
     return groups;

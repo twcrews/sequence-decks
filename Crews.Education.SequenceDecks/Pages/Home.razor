@@ -1,28 +1,47 @@
 ﻿@page "/"
 @using Crews.Education.SequenceDecks.Models
 @inject HttpClient Http
+@inject AppStateService AppState
+@inject WindowService Window
+@implements IDisposable
 
 <Background @ref="background" />
 <PageTitle>Sequence Decks</PageTitle>
-
-Hello, world!
-
-<button onclick="@StartBackgroundAsync">Start Background</button>
-
-@((MarkupString)string.Join("<br><br>========<br><br>", decks?.Select(deck => $"{deck.Color}<br><br>{string.Join("<br>", deck.Content)}") ?? ["Loading decks..."]))
-
+@if (!AppState.Started)
+{
+	<div class="center-content">
+		@if (AppState.BackgroundReady)
+		{
+			<button class="start-button" @onclick="StartBackgroundAsync" disabled="@(!AppState.BackgroundReady)">
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+					<path
+						d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z" />
+				</svg>
+				Enter fullscreen &amp; start
+			</button>
+		}
+		else
+		{
+			<Spinner Size="32" Color="white" />
+			<h2>Loading...</h2>
+		}
+	</div>
+}
 @code {
 
-	private Background background;
+	private Background? background;
 	private IEnumerable<Deck>? decks;
 
-	protected override async Task OnInitializedAsync()
-	{
-		decks = await Http.GetFromJsonAsync<IEnumerable<Deck>>("decks.json");
-	}
+	protected override void OnInitialized() => AppState.OnChange += StateHasChanged;
+	public void Dispose() => AppState.OnChange -= StateHasChanged;
 
-	private Task StartBackgroundAsync()
+	private async Task StartBackgroundAsync()
 	{
-		return background?.StartBackgroundAsync() ?? Task.CompletedTask;
+		await Window.EnterFullscreenAsync();
+		if (background != null)
+		{
+			await background.StartBackgroundAsync();
+		}
+		AppState.Started = true;
 	}
 }

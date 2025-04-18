@@ -22,7 +22,6 @@ public record Aerial
   public record Variant
   {
     public required Resolution Resolution { get; set; }
-    public required ColorRange ColorRange { get; set; }
     public required Uri Uri { get; set; }
   }
 
@@ -30,11 +29,5 @@ public record Aerial
   {
     HD,
     Uhd
-  }
-
-  public enum ColorRange
-  {
-    Sdr,
-    Hdr
   }
 }

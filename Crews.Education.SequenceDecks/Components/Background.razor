@@ -1,20 +1,63 @@
 ﻿@using Crews.Education.SequenceDecks.Extensions
 @inject IAerialService AerialService
 @inject IJSRuntime JSRuntime
+@inject AppStateService AppState
 @implements IAsyncDisposable
 
 <div class="background-container">
-    <video @ref="primaryVideo" class="background-video" muted="muted" src="@primarySource" />
-    <video @ref="secondaryVideo" class="background-video @(videoState == VideoState.SecondaryPlaying ? "" : "hidden")"
-        muted src="@secondarySource" />
-    <div class="caption-container">
-        <p>@caption</p>
+    <video @ref="primaryVideo" class="background-video" muted src="@primarySource" preload="auto" />
+    <video @ref="secondaryVideo" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted
+        src="@secondarySource" preload="auto" />
+    @if (started)
+    {
+        <div class="caption-container">
+            @if (!string.IsNullOrWhiteSpace(caption))
+            {
+                <p>@caption</p>
+            }
+            @if (awaitingSkip)
+            {
+                <div style="padding: 8px">
+                    <Spinner Size="24" Color="white" />
+                </div>
+            }
+            else
+            {
+                <div class="skip-button" @onclick="HandleSkipRequest">
+                    <p>Skip</p>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<div class="gradient-bg @(started ? "hidden" : "")">
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                    result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+    <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
     </div>
 </div>
 
 @code {
+    private bool started = false;
+    private bool firstVideo = true;
+    private int aerialIndex = 0;
+
     private List<Aerial> aerials = [];
-    private VideoState videoState = VideoState.Stopped;
+    private bool isPrimaryVideoActive = true;
 
     private ElementReference primaryVideo;
     private ElementReference secondaryVideo;
@@ -25,60 +68,80 @@
     private string secondarySource = "";
 
     private string caption = "";
-    private int? nextCaptionTime;
-    private bool videoChangeBlock = false;
+    private int nextCaptionTime = 0;
+
+    private NextVideoLoadState nextVideoLoadState = NextVideoLoadState.NotStarted;
+    private bool transitioning = false;
+    private bool awaitingSkip = false;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            // Create a reference to the current component instance
-            _objRef = DotNetObjectReference.Create(this);
+            nextVideoLoadState = NextVideoLoadState.Loading;
 
-            // Load the JS module
+            _objRef = DotNetObjectReference.Create(this);
             _jsModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/videoInterop.js");
 
-            // Register the timeupdate event listener
-            if (_jsModule != null)
-            {
-                await _jsModule.InvokeVoidAsync("registerTimeUpdate", primaryVideo, _objRef);
-                await _jsModule.InvokeVoidAsync("registerTimeUpdate", secondaryVideo, _objRef);
-            }
+            var groups = await AerialService.GetAerialGroupsAsync();
+            aerials = groups?.SelectMany(group => group.Videos).Shuffle().ToList() ?? [];
 
-            nextCaptionTime = 0;
+            await _jsModule.InvokeVoidAsync("registerCanPlayThrough", primaryVideo, _objRef);
+            await _jsModule.InvokeVoidAsync("registerTimeUpdate", primaryVideo, _objRef);
+
+            primarySource = GetUri(aerials[0])?.OriginalString ?? "";
+            await InvokeAsync(() => StateHasChanged());
         }
+
+        await base.OnAfterRenderAsync(firstRender);
     }
 
     [JSInvokable]
     public async Task OnTimeUpdateAsync(double currentTimeInSeconds, double durationInSeconds)
     {
-        if (nextCaptionTime != null && currentTimeInSeconds > nextCaptionTime)
+        double timeRemaining = durationInSeconds - currentTimeInSeconds;
+        caption = GetCaption(currentTimeInSeconds) ?? "No info";
+
+        if (currentTimeInSeconds > nextCaptionTime)
         {
-            caption = GetCaption(currentTimeInSeconds) ?? "No info";
             nextCaptionTime = aerials[aerialIndex].Captions
             .OrderBy(caption => caption.Seconds)
             .FirstOrDefault(caption => caption.Seconds > currentTimeInSeconds)?
-            .Seconds;
-
-            await InvokeAsync(() => StateHasChanged());
+            .Seconds ?? 0;
         }
 
-        if (durationInSeconds - currentTimeInSeconds < 5 && !videoChangeBlock)
+        if ((timeRemaining < 5 || (awaitingSkip && nextVideoLoadState == NextVideoLoadState.CanPlayThrough)) && !transitioning)
         {
-            videoChangeBlock = true;
             await ChangeVideoAsync();
         }
-        else if (videoChangeBlock)
+        else if (timeRemaining > 5 && currentTimeInSeconds > 5)
         {
-            videoChangeBlock = false;
+            if (transitioning)
+            {
+                transitioning = false;
+            }
+            if (nextVideoLoadState == NextVideoLoadState.NotStarted)
+            {
+                await LoadNextVideoAsync();
+            }
+        }
+
+        await InvokeAsync(() => StateHasChanged());
+    }
+
+    [JSInvokable]
+    public void OnNextVideoCanPlayThrough()
+    {
+        nextVideoLoadState = NextVideoLoadState.CanPlayThrough;
+        if (firstVideo)
+        {
+            firstVideo = false;
+            nextVideoLoadState = NextVideoLoadState.NotStarted;
+            AppState.BackgroundReady = true;
         }
     }
 
-    public Task StartBackgroundAsync()
-    {
-        started = true;
-        return PlayVideoAsync();
-    }
+    public Task StartBackgroundAsync() => PlayVideoAsync();
 
     public async ValueTask DisposeAsync()
     {
@@ -92,87 +155,85 @@
         _objRef?.Dispose();
     }
 
-    protected override async Task OnInitializedAsync()
-    {
-        var groups = await AerialService.GetAerialGroupsAsync();
-        aerials = groups?.SelectMany(group => group.Videos).Shuffle().ToList() ?? [];
-        primarySource = GetUri(aerials[aerialIndex], Aerial.Resolution.Uhd)?.OriginalString ?? "";
-        secondarySource = GetUri(NextAerial(), Aerial.Resolution.Uhd)?.OriginalString ?? "";
-        await base.OnInitializedAsync();
-    }
-
     private async Task PlayVideoAsync()
     {
+        if (!started)
+        {
+            started = true;
+        }
         if (_jsModule != null)
         {
-            await _jsModule.InvokeVoidAsync("playVideo", isUsingPrimaryVideo ? primaryVideo : secondaryVideo);
+            await _jsModule.InvokeVoidAsync("playVideo", ActiveVideoElement());
         }
-    }
-
-    private async Task PauseVideoAsync()
-    {
-        if (_jsModule != null)
-        {
-            await _jsModule.InvokeVoidAsync("pauseVideo", primaryVideo);
-            await _jsModule.InvokeVoidAsync("pauseVideo", secondaryVideo);
-        }
-    }
-
-    private Aerial NextAerial()
-    {
-        aerialIndex += 1;
-        if (aerialIndex >= aerials.Count)
-        {
-            aerialIndex = 0;
-        }
-
-        return aerials[aerialIndex];
     }
 
     private async Task ChangeVideoAsync()
     {
-        Aerial nextAerial = NextAerial();
-        isUsingPrimaryVideo = !isUsingPrimaryVideo;
-        if (isUsingPrimaryVideo)
+        transitioning = true;
+        awaitingSkip = false;
+
+        nextVideoLoadState = NextVideoLoadState.NotStarted;
+        await ToggleActiveVideoAsync();
+        aerialIndex++;
+        if (aerialIndex >= aerials.Count)
         {
-            primarySource = GetUri(nextAerial)?.OriginalString ?? "";
-        }
-        else
-        {
-            secondarySource = GetUri(nextAerial)?.OriginalString ?? "";
+            aerialIndex = 0;
         }
         nextCaptionTime = 0;
-        await InvokeAsync(() => StateHasChanged());
         await PlayVideoAsync();
     }
 
-    private static Uri? GetUri(Aerial aerial, Aerial.Resolution resolution = Aerial.Resolution.HD, Aerial.ColorRange
-    colorRange = Aerial.ColorRange.Sdr)
-    => aerial.Variants.FirstOrDefault(variant => variant.Resolution == resolution && variant.ColorRange == colorRange)?.Uri;
+    private static Uri? GetUri(Aerial aerial, Aerial.Resolution resolution = Aerial.Resolution.HD)
+    => aerial.Variants.FirstOrDefault(variant => variant.Resolution == resolution)?.Uri;
 
-    private string GetCaption(double currentTime)
-    {
-        Aerial aerial
-        return aerial.Captions
+    private string GetCaption(double currentTime) => aerials[aerialIndex].Captions
     .OrderBy(caption => caption.Seconds)
     .LastOrDefault(caption => caption.Seconds < currentTime)?.Text
-    ?? aerial.Captions
+    ?? aerials[aerialIndex].Captions
     .OrderBy(caption => caption.Seconds)
     .FirstOrDefault()?
     .Text ?? "No Info";
+
+    private ElementReference ActiveVideoElement() => isPrimaryVideoActive ? primaryVideo : secondaryVideo;
+    private ElementReference InactiveVideoElement() => isPrimaryVideoActive ? secondaryVideo : primaryVideo;
+
+    private async Task ToggleActiveVideoAsync()
+    {
+        isPrimaryVideoActive = !isPrimaryVideoActive;
+
+        if (_jsModule != null)
+        {
+            await _jsModule.InvokeVoidAsync("registerTimeUpdate", ActiveVideoElement(), _objRef);
+            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", InactiveVideoElement());
+        }
     }
 
-    private Aerial GetCurrentPlayingAerial()
+    private async Task LoadNextVideoAsync(int? customCurrentIndex = null)
     {
-        
+        nextVideoLoadState = NextVideoLoadState.Loading;
+
+        Aerial nextAerial = aerials[(customCurrentIndex ?? aerialIndex) + 1];
+        if (ActiveVideoElement().Equals(primaryVideo))
+        {
+            secondarySource = GetUri(nextAerial)?.OriginalString ?? "";
+        }
+        else
+        {
+            primarySource = GetUri(nextAerial)?.OriginalString ?? "";
+        }
+
+        if (_jsModule != null)
+        {
+            await _jsModule.InvokeVoidAsync("registerCanPlayThrough", InactiveVideoElement(), _objRef);
+        }
     }
 
-    enum VideoState
+    private void HandleSkipRequest() => awaitingSkip = true;
+
+    private enum NextVideoLoadState
     {
-        Stopped,
-        PrimaryPlaying,
-        SecondaryPlaying,
-        TransitioningToPrimary,
-        TransitioningToSecondary
+        NotStarted,
+        Loading,
+        CanPlayThrough
     }
 }
