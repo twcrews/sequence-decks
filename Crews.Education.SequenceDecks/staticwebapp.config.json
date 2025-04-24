@@ -1,0 +1,7 @@
+{
+  "trailingSlash": "never",
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/*.{png,jpg,gif,json,txt,css,js}", "/css/*", "/js/*"]
+  }
+}
