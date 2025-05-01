@@ -5,8 +5,8 @@
 @implements IAsyncDisposable
 
 <div class="background-container">
-    <video @ref="primaryVideo" class="background-video" muted src="@primarySource" preload="auto" />
-    <video @ref="secondaryVideo" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted
+    <video @ref="primaryVideoElement" class="background-video" muted src="@primarySource" preload="auto" />
+    <video @ref="secondaryVideoElement" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted
         src="@secondarySource" preload="auto" />
     @if (started)
     {
@@ -54,13 +54,13 @@
 @code {
     private bool started = false;
     private bool firstVideo = true;
+
     private int aerialIndex = 0;
-
     private List<Aerial> aerials = [];
-    private bool isPrimaryVideoActive = true;
 
-    private ElementReference primaryVideo;
-    private ElementReference secondaryVideo;
+    private bool isPrimaryVideoActive = true;
+    private ElementReference primaryVideoElement;
+    private ElementReference secondaryVideoElement;
     private IJSObjectReference? _jsModule;
     private DotNetObjectReference<Background>? _objRef;
 
@@ -74,6 +74,8 @@
     private bool transitioning = false;
     private bool awaitingSkip = false;
 
+    protected override void OnInitialized() => AppState.OnChange += StateHasChanged;
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -86,11 +88,17 @@
             var groups = await AerialService.GetAerialGroupsAsync();
             aerials = groups?.SelectMany(group => group.Videos).Shuffle().ToList() ?? [];
 
-            await _jsModule.InvokeVoidAsync("registerCanPlayThrough", primaryVideo, _objRef);
-            await _jsModule.InvokeVoidAsync("registerTimeUpdate", primaryVideo, _objRef);
+            await _jsModule.InvokeVoidAsync("registerCanPlayThrough", primaryVideoElement, _objRef);
+            await _jsModule.InvokeVoidAsync("registerTimeUpdate", primaryVideoElement, _objRef);
 
             primarySource = GetUri(aerials[0])?.OriginalString ?? "";
             await InvokeAsync(() => StateHasChanged());
+        }
+
+        if (!started && AppState.Started)
+        {
+            started = true;
+            await PlayVideoAsync();
         }
 
         await base.OnAfterRenderAsync(firstRender);
@@ -147,11 +155,12 @@
     {
         if (_jsModule != null)
         {
-            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", primaryVideo);
-            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", secondaryVideo);
+            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", primaryVideoElement);
+            await _jsModule.InvokeVoidAsync("unregisterTimeUpdate", secondaryVideoElement);
             await _jsModule.DisposeAsync();
         }
 
+        AppState.OnChange -= StateHasChanged;
         _objRef?.Dispose();
     }
 
@@ -194,8 +203,8 @@
     .FirstOrDefault()?
     .Text ?? "No Info";
 
-    private ElementReference ActiveVideoElement() => isPrimaryVideoActive ? primaryVideo : secondaryVideo;
-    private ElementReference InactiveVideoElement() => isPrimaryVideoActive ? secondaryVideo : primaryVideo;
+    private ElementReference ActiveVideoElement() => isPrimaryVideoActive ? primaryVideoElement : secondaryVideoElement;
+    private ElementReference InactiveVideoElement() => isPrimaryVideoActive ? secondaryVideoElement : primaryVideoElement;
 
     private async Task ToggleActiveVideoAsync()
     {
@@ -213,7 +222,7 @@
         nextVideoLoadState = NextVideoLoadState.Loading;
 
         Aerial nextAerial = aerials[(customCurrentIndex ?? aerialIndex) + 1];
-        if (ActiveVideoElement().Equals(primaryVideo))
+        if (ActiveVideoElement().Equals(primaryVideoElement))
         {
             secondarySource = GetUri(nextAerial)?.OriginalString ?? "";
         }
