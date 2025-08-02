@@ -3,14 +3,13 @@
 </div>
 
 <style>
-	.loader {
+.loader {
 	border-radius: 50%;
 	animation: rotate 1s linear infinite;
 }
 
 .loader::before {
 	content: "";
-	box-sizing: border-box;
 	position: absolute;
 	inset: 0px;
 	border-radius: 50%;
@@ -29,8 +28,6 @@
 	75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
 	100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
 }
-
-
 </style>
 
 @code
