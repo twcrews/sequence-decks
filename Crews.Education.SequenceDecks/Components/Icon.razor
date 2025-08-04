@@ -1,0 +1,33 @@
+﻿<i class="material-symbols@(Variant switch
+	{
+		IconVariant.Outlined => "-outlined",
+		IconVariant.Rounded => "-round",
+		IconVariant.Sharp => "-sharp",
+		_ => ""
+	})" style="font-size:@(Size)px;">
+	@Name
+</i>
+
+@code
+{
+
+	public enum IconVariant
+	{
+		Outlined,
+		Rounded,
+		Sharp
+	}
+
+
+
+	[Parameter]
+
+	public IconVariant Variant { get; set; } = IconVariant.Outlined;
+
+	[Parameter]
+	[EditorRequired]
+	public string Name { get; set; }
+
+	[Parameter]
+	public int Size { get; set; } = 24;
+}

@@ -4,7 +4,8 @@
 
 @code {
 	[Parameter]
-	public required string Value { get; set; }
+	[EditorRequired]
+	public string Value { get; set; }
 
 	[Parameter]
 	public string Color { get; set; } = "#eee";
