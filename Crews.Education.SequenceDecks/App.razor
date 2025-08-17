@@ -1,12 +1,24 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
-    <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
-        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-    </Found>
-    <NotFound>
-        <PageTitle>Not found</PageTitle>
-        <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
-        </LayoutView>
-    </NotFound>
-</Router>
+@inject AppStateService AppState
+@implements IDisposable
+
+<PageTitle>Sequence Decks</PageTitle>
+
+<LayoutView Layout="@typeof(MainLayout)">
+    @if (AppState.IsViewingCards)
+    {
+        <DeckCards />
+    }
+    else
+    {
+        <DeckSelector />
+    }
+</LayoutView>
+
+@code {
+    protected override void OnInitialized()
+    {
+        AppState.OnChange += StateHasChanged;
+    }
+
+    public void Dispose() => AppState.OnChange -= StateHasChanged;
+}

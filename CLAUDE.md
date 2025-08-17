@@ -42,7 +42,7 @@ dotnet watch --project Crews.Education.SequenceDecks
 - **Local storage**: Uses Blazored.LocalStorage for client-side persistence
 
 ### Key Services
-- `AppStateService`: Singleton service managing application state (background ready, started status)
+- `AppStateService`: Singleton service managing application state (background ready, started status, multiple deck selection)
 - `IDeckService/JsonDeckService`: Handles loading card deck data from `/decks.json`
 - `IAerialService/JsonAerialService`: Manages background aerial data from `/aerials.json` with blacklist support
 - `WindowService`: Browser window interaction utilities
@@ -52,10 +52,15 @@ dotnet watch --project Crews.Education.SequenceDecks
 - `Deck.Card`: Individual cards with color and value properties
 - `Aerial`: Background animations/videos
 
-### Page Structure
-- `Home.razor`: Main landing page displaying available decks
-- `Cards.razor`: Card display page for individual decks
-- Navigation uses deck slugs for routing
+### Component Structure
+- `DeckSelector`: Main component displaying available decks with checkbox selection and Start button (formerly Home.razor)
+- `DeckCards`: Interactive card sequence component with stack layout and fall-away animations (formerly Cards.razor)
+  - Displays cards in a stack similar to deck buttons
+  - Click top card to reveal next card with fall-away animation
+  - Progress indicator shows current position in sequence
+  - Completion screen when all cards are viewed
+- Navigation managed through AppStateService state instead of routing
+- Multi-deck selection allows users to choose multiple decks and combines their cards randomly
 
 ### Static Assets
 - `/wwwroot/decks.json`: Card deck definitions
@@ -64,7 +69,7 @@ dotnet watch --project Crews.Education.SequenceDecks
 - Custom CSS with component-scoped styles
 
 ### Azure Static Web Apps
-The project includes `staticwebapp.config.json` for Azure SWA deployment with SPA routing fallback configuration.
+The project includes `staticwebapp.config.json` for Azure SWA deployment with SPA fallback configuration that routes all requests to index.html.
 
 ## Testing
 Uses xUnit testing framework with the main test project in `Crews.Education.SequenceDecks.Tests/`.

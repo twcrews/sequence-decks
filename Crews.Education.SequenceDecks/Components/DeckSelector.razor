@@ -1,0 +1,73 @@
+@using Crews.Education.SequenceDecks.Models
+@inject IDeckService DeckService
+@inject AppStateService AppState
+@implements IDisposable
+
+@if (!AppState.Started)
+{
+    <div class="center-content">
+        @if (AppState.BackgroundReady && decks is not null)
+        {
+            <div class="deck-grid">
+                @foreach (var deck in decks)
+                {
+                    <div class="deck-button-container">
+                        <button class="deck-button @(AppState.IsDeckSelected(deck.Slug) ? "selected" : "")" 
+                                style="color:@deck.Color" 
+                                @onclick="() => ToggleDeck(deck.Slug)">
+                            <div class="card-stack">
+                                <div class="card card-back"></div>
+                                <div class="card card-middle"></div>
+                                <div class="card card-front">
+                                    @deck.Name
+                                </div>
+                            </div>
+                            @if (AppState.IsDeckSelected(deck.Slug))
+                            {
+                                <div class="checkbox-indicator">✓</div>
+                            }
+                        </button>
+                    </div>
+                }
+            </div>
+            <div class="start-button-container">
+                <button class="start-button" 
+                        disabled="@(!AppState.HasSelectedDecks)"
+                        @onclick="StartGame">
+                    Start (@AppState.SelectedDeckSlugs.Count deck@(AppState.SelectedDeckSlugs.Count == 1 ? "" : "s"))
+                </button>
+            </div>
+        }
+        else
+        {
+            <Spinner Size="32" Color="white" />
+            <h2>Loading...</h2>
+        }
+    </div>
+}
+
+@code {
+
+    private IEnumerable<Deck>? decks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.OnChange += StateHasChanged;
+        decks = await DeckService.GetDecksAsync();
+    }
+
+    public void Dispose() => AppState.OnChange -= StateHasChanged;
+
+    private void ToggleDeck(string slug)
+    {
+        AppState.ToggleDeckSelection(slug);
+    }
+
+    private void StartGame()
+    {
+        if (AppState.HasSelectedDecks)
+        {
+            AppState.Started = true;
+        }
+    }
+}

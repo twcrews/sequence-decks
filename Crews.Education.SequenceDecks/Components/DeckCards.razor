@@ -1,0 +1,99 @@
+@using Crews.Education.SequenceDecks.Models
+@inject IDeckService DeckService
+@inject AppStateService AppState
+@implements IDisposable
+
+@if (cards is not null && cards.Length > 0)
+{
+		
+	<div class="progress-indicator">
+		<span>@(currentCardIndex + 1) / @cards.Length</span>
+	</div>
+	
+	<div class="card-stack-container">
+		@for (int i = currentCardIndex; i < Math.Min(currentCardIndex + cardsToDisplay, cards.Length); i++)
+		{
+			<div class="card-wrapper @(i == currentCardIndex ? "top-card" : "") @(animatingCard == i ? "falling" : "")" 
+				 style="z-index: @(cardsToDisplay - (i - currentCardIndex)); transform: translateZ(@((i - currentCardIndex) * -10)px)"
+				 @onclick="@(() => HandleCardClick(i))">
+				<Card Color="@cards[i].Color" Value="@cards[i].Value"></Card>
+			</div>
+		}
+		
+		@if (currentCardIndex >= cards.Length - 1)
+		{
+			<div class="completion-message">
+				<h2>All cards completed!</h2>
+				<button class="back-button" @onclick="ReturnToDeckSelector">Choose More Decks</button>
+			</div>
+		}
+	</div>
+}
+
+@code {
+	private Deck.Card[]? cards;
+	private int currentCardIndex = 0;
+	private int animatingCard = -1;
+	private const int cardsToDisplay = 3;
+
+	protected override async Task OnInitializedAsync()
+	{
+		AppState.OnChange += StateHasChanged;
+		await LoadSelectedDecks();
+	}
+
+	protected override async Task OnParametersSetAsync()
+	{
+		await LoadSelectedDecks();
+	}
+
+	public void Dispose() => AppState.OnChange -= StateHasChanged;
+
+	private async Task LoadSelectedDecks()
+	{
+		if (AppState.SelectedDeckSlugs.Count > 0)
+		{
+			IEnumerable<Deck>? allDecks = await DeckService.GetDecksAsync();
+			var selectedDecks = allDecks?.Where(d => AppState.SelectedDeckSlugs.Contains(d.Slug)) ?? Enumerable.Empty<Deck>();
+			
+			var combinedCards = new List<Deck.Card>();
+			foreach (var deck in selectedDecks)
+			{
+				combinedCards.AddRange(deck.GetCards());
+			}
+			
+			var random = new Random();
+			cards = combinedCards.OrderBy(c => random.Next()).ToArray();
+			currentCardIndex = 0;
+		}
+		else
+		{
+			cards = null;
+			currentCardIndex = 0;
+		}
+	}
+
+	private async Task HandleCardClick(int cardIndex)
+	{
+		if (cardIndex != currentCardIndex || cards == null) return;
+
+		animatingCard = cardIndex;
+		StateHasChanged();
+
+		await Task.Delay(500);
+
+		if (currentCardIndex < cards.Length - 1)
+		{
+			currentCardIndex++;
+		}
+		
+		animatingCard = -1;
+		StateHasChanged();
+	}
+
+	private void ReturnToDeckSelector()
+	{
+		AppState.Started = false;
+		AppState.ClearSelection();
+	}
+}
