@@ -1,30 +1,54 @@
 ﻿@page "/"
 @using Crews.Education.SequenceDecks.Models
-@inject HttpClient Http
+@inject IDeckService DeckService
+@inject NavigationManager Navigation
 @inject AppStateService AppState
-@inject WindowService Window
 @implements IDisposable
 
 <PageTitle>Sequence Decks</PageTitle>
+
 @if (!AppState.Started)
 {
-	<div class="center-content">
-		@if (AppState.BackgroundReady)
-		{
-			<IconButton IconName="fullscreen" OnClick="StartBackground" Disabled="@(!AppState.BackgroundReady)">
-				Enter fullscreen &amp; start
-			</IconButton>
-		}
-		else
-		{
-			<Spinner Size="32" Color="white" />
-			<h2>Loading...</h2>
-		}
-	</div>
+    <div class="center-content">
+        @if (AppState.BackgroundReady)
+        {
+            <div class="deck-grid">
+                @foreach (var deck in decks)
+                {
+                    <button class="deck-button"
+                            style="color:@deck.Color"
+                            @onclick="() => NavigateToDeck(deck.Slug)">
+                        @deck.Name
+                    </button>
+                }
+            </div>
+        }
+        else
+        {
+            <Spinner Size="32" Color="white" />
+            <h2>Loading...</h2>
+        }
+    </div>
 }
-@code {
-	protected override void OnInitialized() => AppState.OnChange += StateHasChanged;
-	public void Dispose() => AppState.OnChange -= StateHasChanged;
 
-	private void StartBackground() => AppState.Started = true;
+@code {
+
+    private IEnumerable<Deck>? decks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.OnChange += StateHasChanged;
+        decks = await DeckService.GetDecksAsync();
+    }
+
+    public void Dispose() => AppState.OnChange -= StateHasChanged;
+
+    private void StartBackground() => AppState.Started = true;
+
+    private void NavigateToDeck(string slug)
+    {
+
+        StartBackground();
+        Navigation.NavigateTo($"/{slug}");
+    }
 }

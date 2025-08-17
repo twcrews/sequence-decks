@@ -2,6 +2,7 @@
 	{
 		"Name": "Red",
 		"Color": "#c00000",
+    "Slug": "red",
 		"Content": [
 			"here",
 			"to",
@@ -48,6 +49,7 @@
 	{
 		"Name": "Blue",
 		"Color": "#007bd4",
+		"Slug": "blue",
 		"Content": [
 			"saw",
 			"ride",
@@ -106,6 +108,7 @@
 	{
 		"Name": "Yellow",
 		"Color": "#ccc200",
+		"Slug": "yellow",
 		"Content": [
 			"walk",
 			"thank",
@@ -152,6 +155,7 @@
 	{
 		"Name": "Green",
 		"Color": "#00cc00",
+		"Slug": "green",
 		"Content": [
 			"fast",
 			"made",
@@ -204,6 +208,7 @@
 	{
 		"Name": "Light Blue",
 		"Color": "#00cfcb",
+		"Slug": "light-blue",
 		"Content": [
 			"carry",
 			"start",
@@ -254,6 +259,7 @@
 	{
 		"Name": "Pink",
 		"Color": "#de0068",
+		"Slug": "pink",
 		"Content": [
 			"children",
 			"cake",
@@ -308,6 +314,7 @@
 	{
 		"Name": "Orange",
 		"Color": "#de8500",
+		"Slug": "orange",
 		"Content": [
 			"squirrel",
 			"morning",

@@ -29,8 +29,11 @@
             }
         </div>
     }
+    else
+    {
+        <div class="gradient-bg @(started ? "hidden" : "")" />
+    }
 </div>
-<div class="gradient-bg @(started ? "hidden" : "")" />
 
 @code {
     private bool started = false;

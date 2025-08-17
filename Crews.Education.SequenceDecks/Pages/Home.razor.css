@@ -1,17 +1,49 @@
 h2 {
-	color: white;
-	font-family: "Noto Sans", sans-serif;
-	line-height: 1;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1;
 }
 
 .center-content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	gap: 24px;
-	align-items: center;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.deck-grid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 32px;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.deck-button {
+    width: 220px;
+    height: 140px;
+    font-size: 2.2rem;
+    font-family: "Noto Sans", system-ui, sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
+}
+
+.deck-button:hover, .deck-button:focus {
+    background: white;
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.35);
 }
 
 .start-button {
