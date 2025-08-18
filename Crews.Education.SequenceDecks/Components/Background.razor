@@ -5,9 +5,8 @@
 @implements IAsyncDisposable
 
 <div class="background-container">
-    <video @ref="primaryVideoElement" class="background-video" muted src="@primarySource" preload="auto" />
-    <video @ref="secondaryVideoElement" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted
-           src="@secondarySource" preload="auto" />
+    <video @ref="primaryVideoElement" class="background-video" muted src="@primarySource" preload="auto" playsinline disablePictureInPicture />
+    <video @ref="secondaryVideoElement" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted src="@secondarySource" preload="auto" playsinline disablePictureInPicture />
     @if (AppState.BackgroundStartRequested)
     {
         <div class="caption-container">
