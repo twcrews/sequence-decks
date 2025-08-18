@@ -3,6 +3,7 @@
 @inject IDeckService DeckService
 @inject AppStateService AppState
 @inject NavigationManager Navigation
+@inject WindowService Window
 @implements IDisposable
 
 @if (cards is not null && cards.Length > 0)
@@ -18,14 +19,14 @@
 			int stackPosition = i - currentCardIndex;
 			<div class="card-wrapper @(i == currentCardIndex ? "top-card" : "") @(animatingCard == i ? "falling" : animatingCard >= 0 ? "rising" : "")" 
 				 style="--stack-position: @stackPosition; z-index: @(cardsToDisplay - stackPosition);"
-				 @onclick="() => HandleCardClick(currentCardIndex)">
+				 @onclick="() => HandleCardClickAsync(currentCardIndex)">
 				<Card Color="@cards[i].Color" Value="@cards[i].Value"></Card>
 			</div>
 		}
 	</div>
 
 	<div class="controls">
-		<IconButton IconName="home" OnClick="@(() => Navigation.NavigateTo("/"))" />
+		<IconButton IconName="home" OnClick="ReturnToDeckSelectionAsync" />
 	</div>
 }
 
@@ -39,14 +40,14 @@
 	{
 		AppState.OnChange += StateHasChanged;
 		Navigation.LocationChanged += OnLocationChanged;
-		await LoadDecksFromUrl();
+		await LoadDecksFromUrlAsync();
 	}
 
-	protected override async Task OnParametersSetAsync() => await LoadDecksFromUrl();
+	protected override async Task OnParametersSetAsync() => await LoadDecksFromUrlAsync();
 
 	private async void OnLocationChanged(object? sender, LocationChangedEventArgs e)
 	{
-		await LoadDecksFromUrl();
+		await LoadDecksFromUrlAsync();
 		StateHasChanged();
 	}
 
@@ -56,7 +57,7 @@
 		Navigation.LocationChanged -= OnLocationChanged;
 	}
 
-	private async Task LoadDecksFromUrl()
+	private async Task LoadDecksFromUrlAsync()
 	{
 		var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
 		var queryParams = QueryHelpers.ParseQuery(uri.Query);
@@ -96,11 +97,11 @@
 			}
 		}
 
-        // No valid decks in URL; return to selector.
-        Navigation.NavigateTo("/");
+		// No valid decks in URL; return to selector.
+		await ReturnToDeckSelectionAsync();
 	}
 
-	private async Task HandleCardClick(int cardIndex)
+	private async Task HandleCardClickAsync(int cardIndex)
 	{
 		AppState.StartBackground();
 
@@ -108,7 +109,7 @@
 
 		if (cardIndex == cards.Length - 1)
 		{
-			Navigation.NavigateTo("/");
+			await ReturnToDeckSelectionAsync();
 			return;
 		}
 
@@ -121,8 +122,14 @@
 		{
 			currentCardIndex++;
 		}
-		
+
 		animatingCard = -1;
 		StateHasChanged();
+	}
+
+	private async Task ReturnToDeckSelectionAsync()
+	{
+		await Window.ExitFullscreenAsync();
+		Navigation.NavigateTo("/");
 	}
 }

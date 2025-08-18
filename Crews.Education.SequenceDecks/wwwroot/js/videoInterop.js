@@ -4,10 +4,12 @@
 
 export function registerTimeUpdate(videoElement, dotNetHelper) {
     videoElement._timeUpdateCallback = function () {
-        const currentTimeInSeconds = videoElement.currentTime;
-        const durationInSeconds = videoElement.duration;
+        const currentTimeInSeconds = Number(videoElement.currentTime);
+        const durationInSeconds = Number(videoElement.duration);
 
-        dotNetHelper.invokeMethodAsync('OnTimeUpdateAsync', currentTimeInSeconds, durationInSeconds);
+        if (currentTimeInSeconds && durationInSeconds) {
+            dotNetHelper.invokeMethodAsync('OnTimeUpdateAsync', currentTimeInSeconds, durationInSeconds);
+        }
     };
 
     videoElement.addEventListener('timeupdate', videoElement._timeUpdateCallback);

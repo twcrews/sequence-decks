@@ -3,6 +3,7 @@
 @inject IDeckService DeckService
 @inject AppStateService AppState
 @inject NavigationManager Navigation
+@inject WindowService Window
 @implements IDisposable
 
 <div class="center-content">
@@ -34,7 +35,7 @@
             <IconButton IconName="@(shuffle ? "check_box" : "check_box_outline_blank")" OnClick="ToggleShuffle">
                 Shuffle
             </IconButton>
-            <IconButton IconName="play_circle" OnClick="PresentCards">
+            <IconButton IconName="play_circle" OnClick="PresentCardsAsync">
                 Start (@(deckSelectionText))
             </IconButton>
         </div>
@@ -101,7 +102,7 @@
 
     private bool IsDeckSelected(string slug) => selectedDecks.Contains(slug);
 
-    private void PresentCards()
+    private async Task PresentCardsAsync()
     {
         if (availableDecks is null) return;
 
@@ -115,6 +116,8 @@
         var url = $"?decks={Uri.EscapeDataString(queryString)}{(shuffle ? "&shuffle=true" : "")}";
         Navigation.NavigateTo(url);
         AppState.StartBackground();
+
+        await Window.EnterFullscreenAsync();
     }
 
     private void ToggleShuffle() => shuffle = !shuffle;
