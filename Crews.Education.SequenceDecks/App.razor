@@ -1,10 +1,12 @@
+@using Microsoft.AspNetCore.WebUtilities
 @inject AppStateService AppState
+@inject NavigationManager Navigation
 @implements IDisposable
 
 <PageTitle>Sequence Decks</PageTitle>
 
 <LayoutView Layout="@typeof(MainLayout)">
-    @if (AppState.IsViewingCards)
+    @if (ShouldShowCards())
     {
         <DeckCards />
     }
@@ -18,7 +20,32 @@
     protected override void OnInitialized()
     {
         AppState.OnChange += StateHasChanged;
+        Navigation.LocationChanged += OnLocationChanged;
     }
 
-    public void Dispose() => AppState.OnChange -= StateHasChanged;
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        StateHasChanged();
+    }
+
+    private bool ShouldShowCards()
+    {
+        // Check if there are decks in the URL query string
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        var queryParams = QueryHelpers.ParseQuery(uri.Query);
+        
+        if (queryParams.TryGetValue("decks", out var deckParams) && !string.IsNullOrEmpty(deckParams))
+        {
+            return true;
+        }
+        
+        // Fallback to AppState for backwards compatibility
+        return AppState.IsViewingCards;
+    }
+
+    public void Dispose() 
+    {
+        AppState.OnChange -= StateHasChanged;
+        Navigation.LocationChanged -= OnLocationChanged;
+    }
 }

@@ -1,6 +1,8 @@
 @using Crews.Education.SequenceDecks.Models
+@using Microsoft.AspNetCore.WebUtilities
 @inject IDeckService DeckService
 @inject AppStateService AppState
+@inject NavigationManager Navigation
 @implements IDisposable
 
 @if (cards is not null && cards.Length > 0)
@@ -39,38 +41,68 @@
 	protected override async Task OnInitializedAsync()
 	{
 		AppState.OnChange += StateHasChanged;
-		await LoadSelectedDecks();
+		Navigation.LocationChanged += OnLocationChanged;
+		await LoadDecksFromUrl();
 	}
 
 	protected override async Task OnParametersSetAsync()
 	{
-		await LoadSelectedDecks();
+		await LoadDecksFromUrl();
 	}
 
-	public void Dispose() => AppState.OnChange -= StateHasChanged;
-
-	private async Task LoadSelectedDecks()
+	private async void OnLocationChanged(object? sender, LocationChangedEventArgs e)
 	{
-		if (AppState.SelectedDeckSlugs.Count > 0)
+		await LoadDecksFromUrl();
+		StateHasChanged();
+	}
+
+	public void Dispose() 
+	{
+		AppState.OnChange -= StateHasChanged;
+		Navigation.LocationChanged -= OnLocationChanged;
+	}
+
+	private async Task LoadDecksFromUrl()
+	{
+		var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+		var queryParams = QueryHelpers.ParseQuery(uri.Query);
+		
+		if (queryParams.TryGetValue("decks", out var deckParams) && !string.IsNullOrEmpty(deckParams))
 		{
-			IEnumerable<Deck>? allDecks = await DeckService.GetDecksAsync();
-			var selectedDecks = allDecks?.Where(d => AppState.SelectedDeckSlugs.Contains(d.Slug)) ?? Enumerable.Empty<Deck>();
-			
-			var combinedCards = new List<Deck.Card>();
-			foreach (var deck in selectedDecks)
+			var selectedDeckSlugs = deckParams.ToString().Split(',', StringSplitOptions.RemoveEmptyEntries)
+				.Select(slug => slug.Trim())
+				.Where(slug => !string.IsNullOrEmpty(slug))
+				.ToHashSet();
+
+			if (selectedDeckSlugs.Count > 0)
 			{
-				combinedCards.AddRange(deck.GetCards());
+				IEnumerable<Deck>? allDecks = await DeckService.GetDecksAsync();
+				var selectedDecks = allDecks?.Where(d => selectedDeckSlugs.Contains(d.Slug)) ?? Enumerable.Empty<Deck>();
+				
+				var combinedCards = new List<Deck.Card>();
+				foreach (var deck in selectedDecks)
+				{
+					combinedCards.AddRange(deck.GetCards());
+				}
+				
+				var random = new Random();
+				cards = combinedCards.OrderBy(c => random.Next()).ToArray();
+				currentCardIndex = 0;
+				
+				// Update AppState to reflect URL state
+				AppState.ClearSelection();
+				foreach (var slug in selectedDeckSlugs)
+				{
+					AppState.ToggleDeckSelection(slug);
+				}
+				return;
 			}
-			
-			var random = new Random();
-			cards = combinedCards.OrderBy(c => random.Next()).ToArray();
-			currentCardIndex = 0;
 		}
-		else
-		{
-			cards = null;
-			currentCardIndex = 0;
-		}
+		
+		// No valid decks in URL
+		cards = null;
+		currentCardIndex = 0;
+		AppState.ClearSelection();
 	}
 
 	private async Task HandleCardClick(int cardIndex)
@@ -95,5 +127,6 @@
 	{
 		AppState.Started = false;
 		AppState.ClearSelection();
+		Navigation.NavigateTo("/");
 	}
 }

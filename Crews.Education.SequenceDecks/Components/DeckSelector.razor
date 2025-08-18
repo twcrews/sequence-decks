@@ -1,6 +1,8 @@
 @using Crews.Education.SequenceDecks.Models
+@using Microsoft.AspNetCore.WebUtilities
 @inject IDeckService DeckService
 @inject AppStateService AppState
+@inject NavigationManager Navigation
 @implements IDisposable
 
 @if (!AppState.Started)
@@ -53,10 +55,42 @@
     protected override async Task OnInitializedAsync()
     {
         AppState.OnChange += StateHasChanged;
+        Navigation.LocationChanged += OnLocationChanged;
         decks = await DeckService.GetDecksAsync();
+        LoadSelectionFromUrl();
     }
 
-    public void Dispose() => AppState.OnChange -= StateHasChanged;
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        LoadSelectionFromUrl();
+        StateHasChanged();
+    }
+
+    private void LoadSelectionFromUrl()
+    {
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        var queryParams = QueryHelpers.ParseQuery(uri.Query);
+        
+        if (queryParams.TryGetValue("decks", out var deckParams) && !string.IsNullOrEmpty(deckParams))
+        {
+            var selectedDeckSlugs = deckParams.ToString().Split(',', StringSplitOptions.RemoveEmptyEntries)
+                .Select(slug => slug.Trim())
+                .Where(slug => !string.IsNullOrEmpty(slug))
+                .ToHashSet();
+
+            AppState.ClearSelection();
+            foreach (var slug in selectedDeckSlugs)
+            {
+                AppState.ToggleDeckSelection(slug);
+            }
+        }
+    }
+
+    public void Dispose() 
+    {
+        AppState.OnChange -= StateHasChanged;
+        Navigation.LocationChanged -= OnLocationChanged;
+    }
 
     private void ToggleDeck(string slug)
     {
@@ -67,6 +101,9 @@
     {
         if (AppState.HasSelectedDecks)
         {
+            var selectedDecks = string.Join(",", AppState.SelectedDeckSlugs);
+            var url = $"?decks={Uri.EscapeDataString(selectedDecks)}";
+            Navigation.NavigateTo(url);
             AppState.Started = true;
         }
     }

@@ -54,13 +54,17 @@ dotnet watch --project Crews.Education.SequenceDecks
 
 ### Component Structure
 - `DeckSelector`: Main component displaying available decks with checkbox selection and Start button (formerly Home.razor)
+  - Reads selected decks from URL query string on load
+  - Updates URL with query string when Start is clicked
 - `DeckCards`: Interactive card sequence component with stack layout and fall-away animations (formerly Cards.razor)
   - Displays cards in a stack similar to deck buttons
   - Click top card to reveal next card with fall-away animation
   - Progress indicator shows current position in sequence
   - Completion screen when all cards are viewed
-- Navigation managed through AppStateService state instead of routing
+  - Reads selected decks from URL query string `?decks=deck1,deck2`
+- Navigation managed through URL query strings for shareable deck combinations
 - Multi-deck selection allows users to choose multiple decks and combines their cards randomly
+- URLs can be saved and shared for specific deck combinations
 
 ### Static Assets
 - `/wwwroot/decks.json`: Card deck definitions
