@@ -7,37 +7,47 @@
 <div class="background-container">
     <video @ref="primaryVideoElement" class="background-video" muted src="@primarySource" preload="auto" />
     <video @ref="secondaryVideoElement" class="background-video @(isPrimaryVideoActive ? "hidden" : "")" muted
-        src="@secondarySource" preload="auto" />
-    @if (started)
+           src="@secondarySource" preload="auto" />
+    @if (AppState.BackgroundStartRequested)
     {
         <div class="caption-container">
-            @if (!string.IsNullOrWhiteSpace(caption))
+            @if (backgroundReady)
             {
-                <p>@caption</p>
+                @if (!string.IsNullOrWhiteSpace(caption))
+                {
+                    <p>@caption</p>
+                }
+                @if (awaitingSkip)
+                {
+                    <div style="padding: 8px">
+                        <Spinner Size="24" Color="white" />
+                    </div>
+                }
+                else
+                {
+                    <div class="skip-button" @onclick="HandleSkipRequest">
+                        <p>Skip</p>
+                    </div>
+                }
             }
-            @if (awaitingSkip)
+            else if (AppState.BackgroundStartRequested)
             {
+                <p>Loading background...</p>
                 <div style="padding: 8px">
                     <Spinner Size="24" Color="white" />
                 </div>
             }
-            else
-            {
-                <div class="skip-button" @onclick="HandleSkipRequest">
-                    <p>Skip</p>
-                </div>
-            }
         </div>
     }
-    else
-    {
-        <div class="gradient-bg @(started ? "hidden" : "")" />
-    }
+    <div class="gradient-bg @(backgroundReady ? "hidden" : "")" />
 </div>
 
 @code {
-    private bool started = false;
+
+    private bool firstVideoCanPlayThrough = false;
     private bool firstVideo = true;
+
+    private bool backgroundReady => firstVideoCanPlayThrough && AppState.BackgroundStartRequested;
 
     private int aerialIndex = 0;
     private List<Aerial> aerials = [];
@@ -79,9 +89,8 @@
             await InvokeAsync(() => StateHasChanged());
         }
 
-        if (!started && AppState.Started)
+        if (AppState.BackgroundStartRequested)
         {
-            started = true;
             await PlayVideoAsync();
         }
 
@@ -129,7 +138,7 @@
         {
             firstVideo = false;
             nextVideoLoadState = NextVideoLoadState.NotStarted;
-            AppState.BackgroundReady = true;
+            firstVideoCanPlayThrough = true;
         }
     }
 
@@ -150,10 +159,6 @@
 
     private async Task PlayVideoAsync()
     {
-        if (!started)
-        {
-            started = true;
-        }
         if (_jsModule != null)
         {
             await _jsModule.InvokeVoidAsync("playVideo", ActiveVideoElement());

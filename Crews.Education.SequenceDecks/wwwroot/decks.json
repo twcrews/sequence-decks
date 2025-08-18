@@ -1,8 +1,20 @@
 [
 	{
+		"Name": "DEBUG",
+		"Color": "#000000",
+		"Slug": "debug",
+		"Content": [
+			"this",
+			"is",
+			"a",
+			"test",
+			"deck"
+		]
+	},
+	{
 		"Name": "Red",
 		"Color": "#c00000",
-    "Slug": "red",
+		"Slug": "red",
 		"Content": [
 			"here",
 			"to",

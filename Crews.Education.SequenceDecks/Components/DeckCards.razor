@@ -15,20 +15,17 @@
 	<div class="card-stack-container">
 		@for (int i = currentCardIndex; i < Math.Min(currentCardIndex + cardsToDisplay, cards.Length); i++)
 		{
-			<div class="card-wrapper @(i == currentCardIndex ? "top-card" : "") @(animatingCard == i ? "falling" : "")" 
-				 style="z-index: @(cardsToDisplay - (i - currentCardIndex)); transform: translateZ(@((i - currentCardIndex) * -10)px)"
-				 @onclick="@(() => HandleCardClick(i))">
+			int stackPosition = i - currentCardIndex;
+			<div class="card-wrapper @(i == currentCardIndex ? "top-card" : "") @(animatingCard == i ? "falling" : animatingCard >= 0 ? "rising" : "")" 
+				 style="--stack-position: @stackPosition; z-index: @(cardsToDisplay - stackPosition);"
+				 @onclick="() => HandleCardClick(currentCardIndex)">
 				<Card Color="@cards[i].Color" Value="@cards[i].Value"></Card>
 			</div>
 		}
-		
-		@if (currentCardIndex >= cards.Length - 1)
-		{
-			<div class="completion-message">
-				<h2>All cards completed!</h2>
-				<button class="back-button" @onclick="ReturnToDeckSelector">Choose More Decks</button>
-			</div>
-		}
+	</div>
+
+	<div class="controls">
+		<IconButton IconName="home" OnClick="@(() => Navigation.NavigateTo("/"))" />
 	</div>
 }
 
@@ -45,10 +42,7 @@
 		await LoadDecksFromUrl();
 	}
 
-	protected override async Task OnParametersSetAsync()
-	{
-		await LoadDecksFromUrl();
-	}
+	protected override async Task OnParametersSetAsync() => await LoadDecksFromUrl();
 
 	private async void OnLocationChanged(object? sender, LocationChangedEventArgs e)
 	{
@@ -66,7 +60,7 @@
 	{
 		var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
 		var queryParams = QueryHelpers.ParseQuery(uri.Query);
-		
+
 		if (queryParams.TryGetValue("decks", out var deckParams) && !string.IsNullOrEmpty(deckParams))
 		{
 			var selectedDeckSlugs = deckParams.ToString().Split(',', StringSplitOptions.RemoveEmptyEntries)
@@ -77,37 +71,46 @@
 			if (selectedDeckSlugs.Count > 0)
 			{
 				IEnumerable<Deck>? allDecks = await DeckService.GetDecksAsync();
-				var selectedDecks = allDecks?.Where(d => selectedDeckSlugs.Contains(d.Slug)) ?? Enumerable.Empty<Deck>();
-				
+				var selectedDecks = allDecks?
+					.Where(d => selectedDeckSlugs.Contains("all") || selectedDeckSlugs.Contains(d.Slug)) 
+					?? Enumerable.Empty<Deck>();
+
 				var combinedCards = new List<Deck.Card>();
 				foreach (var deck in selectedDecks)
 				{
 					combinedCards.AddRange(deck.GetCards());
 				}
-				
-				var random = new Random();
-				cards = combinedCards.OrderBy(c => random.Next()).ToArray();
-				currentCardIndex = 0;
-				
-				// Update AppState to reflect URL state
-				AppState.ClearSelection();
-				foreach (var slug in selectedDeckSlugs)
+
+				if (queryParams.TryGetValue("shuffle", out var shuffleParams) && shuffleParams.ToString().Equals("true", StringComparison.InvariantCultureIgnoreCase))
 				{
-					AppState.ToggleDeckSelection(slug);
+					var random = new Random();
+					cards = combinedCards.OrderBy(c => random.Next()).ToArray();
 				}
+				else
+				{
+					cards = combinedCards.ToArray();
+				}
+				currentCardIndex = 0;
+
 				return;
 			}
 		}
-		
-		// No valid decks in URL
-		cards = null;
-		currentCardIndex = 0;
-		AppState.ClearSelection();
+
+        // No valid decks in URL; return to selector.
+        Navigation.NavigateTo("/");
 	}
 
 	private async Task HandleCardClick(int cardIndex)
 	{
+		AppState.StartBackground();
+
 		if (cardIndex != currentCardIndex || cards == null) return;
+
+		if (cardIndex == cards.Length - 1)
+		{
+			Navigation.NavigateTo("/");
+			return;
+		}
 
 		animatingCard = cardIndex;
 		StateHasChanged();
@@ -121,12 +124,5 @@
 		
 		animatingCard = -1;
 		StateHasChanged();
-	}
-
-	private void ReturnToDeckSelector()
-	{
-		AppState.Started = false;
-		AppState.ClearSelection();
-		Navigation.NavigateTo("/");
 	}
 }

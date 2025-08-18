@@ -5,58 +5,61 @@
 @inject NavigationManager Navigation
 @implements IDisposable
 
-@if (!AppState.Started)
-{
-    <div class="center-content">
-        @if (AppState.BackgroundReady && decks is not null)
-        {
-            <div class="deck-grid">
-                @foreach (var deck in decks)
-                {
-                    <div class="deck-button-container">
-                        <button class="deck-button @(AppState.IsDeckSelected(deck.Slug) ? "selected" : "")" 
-                                style="color:@deck.Color" 
-                                @onclick="() => ToggleDeck(deck.Slug)">
-                            <div class="card-stack">
-                                <div class="card card-back"></div>
-                                <div class="card card-middle"></div>
-                                <div class="card card-front">
-                                    @deck.Name
-                                </div>
+<div class="center-content">
+    @if (availableDecks is not null)
+    {
+        <div class="deck-grid">
+            @foreach (var deck in availableDecks)
+            {
+                <div class="deck-button-container">
+                    <button class="deck-button @(IsDeckSelected(deck.Slug) ? "selected" : "")" 
+                            style="color:@deck.Color" 
+                            @onclick="() => ToggleDeck(deck.Slug)">
+                        <div class="card-stack">
+                            <div class="card card-back"></div>
+                            <div class="card card-middle"></div>
+                            <div class="card card-front">
+                                @deck.Name
                             </div>
-                            @if (AppState.IsDeckSelected(deck.Slug))
-                            {
-                                <div class="checkbox-indicator">✓</div>
-                            }
-                        </button>
-                    </div>
-                }
-            </div>
-            <div class="start-button-container">
-                <button class="start-button" 
-                        disabled="@(!AppState.HasSelectedDecks)"
-                        @onclick="StartGame">
-                    Start (@AppState.SelectedDeckSlugs.Count deck@(AppState.SelectedDeckSlugs.Count == 1 ? "" : "s"))
-                </button>
-            </div>
-        }
-        else
-        {
-            <Spinner Size="32" Color="white" />
-            <h2>Loading...</h2>
-        }
-    </div>
-}
+                        </div>
+                        @if (IsDeckSelected(deck.Slug))
+                        {
+                            <div class="checkbox-indicator">✓</div>
+                        }
+                    </button>
+                </div>
+            }
+        </div>
+        <div class="button-container">
+            <IconButton IconName="@(shuffle ? "check_box" : "check_box_outline_blank")" OnClick="ToggleShuffle">
+                Shuffle
+            </IconButton>
+            <IconButton IconName="play_circle" OnClick="PresentCards">
+                Start (@(deckSelectionText))
+            </IconButton>
+        </div>
+    }
+    else
+    {
+        <Spinner Size="32" Color="white" />
+        <h2>Loading...</h2>
+    }
+</div>
 
 @code {
+    private IEnumerable<Deck>? availableDecks;
+    private HashSet<string> selectedDecks = [];
+    private bool shuffle = false;
 
-    private IEnumerable<Deck>? decks;
+    private string deckSelectionText => selectedDecks.Count == 0 || selectedDecks.Count == availableDecks?.Count() 
+        ? "all decks" 
+        : $"{selectedDecks.Count} deck{(selectedDecks.Count == 1 ? "" : "s")}";
 
     protected override async Task OnInitializedAsync()
     {
         AppState.OnChange += StateHasChanged;
         Navigation.LocationChanged += OnLocationChanged;
-        decks = await DeckService.GetDecksAsync();
+        availableDecks = await DeckService.GetDecksAsync();
         LoadSelectionFromUrl();
     }
 
@@ -70,7 +73,7 @@
     {
         var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
         var queryParams = QueryHelpers.ParseQuery(uri.Query);
-        
+
         if (queryParams.TryGetValue("decks", out var deckParams) && !string.IsNullOrEmpty(deckParams))
         {
             var selectedDeckSlugs = deckParams.ToString().Split(',', StringSplitOptions.RemoveEmptyEntries)
@@ -78,10 +81,9 @@
                 .Where(slug => !string.IsNullOrEmpty(slug))
                 .ToHashSet();
 
-            AppState.ClearSelection();
             foreach (var slug in selectedDeckSlugs)
             {
-                AppState.ToggleDeckSelection(slug);
+                ToggleDeck(slug);
             }
         }
     }
@@ -94,17 +96,26 @@
 
     private void ToggleDeck(string slug)
     {
-        AppState.ToggleDeckSelection(slug);
+        if (!selectedDecks.Remove(slug)) selectedDecks.Add(slug);
     }
 
-    private void StartGame()
+    private bool IsDeckSelected(string slug) => selectedDecks.Contains(slug);
+
+    private void PresentCards()
     {
-        if (AppState.HasSelectedDecks)
+        if (availableDecks is null) return;
+
+        if (selectedDecks.Count == 0 || selectedDecks.Count == availableDecks.Count())
         {
-            var selectedDecks = string.Join(",", AppState.SelectedDeckSlugs);
-            var url = $"?decks={Uri.EscapeDataString(selectedDecks)}";
-            Navigation.NavigateTo(url);
-            AppState.Started = true;
+            selectedDecks.Clear();
+            selectedDecks.Add("all");
         }
+
+        var queryString = string.Join(",", selectedDecks);
+        var url = $"?decks={Uri.EscapeDataString(queryString)}{(shuffle ? "&shuffle=true" : "")}";
+        Navigation.NavigateTo(url);
+        AppState.StartBackground();
     }
+
+    private void ToggleShuffle() => shuffle = !shuffle;
 }

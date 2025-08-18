@@ -59,6 +59,7 @@ p {
 	background: linear-gradient(135deg, #a28, #11a);
 	animation: hueShift 300s linear infinite;
 	transition: opacity 5s linear;
+	pointer-events: none;
 }
 
 @keyframes hueShift {
